@@ -1555,7 +1555,7 @@ def process_found_synset(
                 print(Fore.CYAN + 'The {0} "{1}" has the synonym set relation of type "{2}" with the following lexical entries:'.format(
                     dict_parts_of_speech_code_to_name[chat_state.current_lexical_entry.part_of_speech],
                     chat_state.current_lexical_entry.written_form,
-                    str_selected_synset_relation_name,
+                    str_selected_synset_relation_name.replace("_", " "),
                     ) + Style.RESET_ALL)
                 for (i, str_lexical_entry_identifier) in enumerate(lst_selected_target_lex_ent_ids) :
                     print(Fore.CYAN + '{0}. "{1}" ({2}).'.format(
