@@ -1,0 +1,259 @@
+{
+  "intents" : [
+    {
+      "label" : "verb.change",
+      "features" : [
+        "change",
+        "Anything that defines a change.",
+        "What about defining changes?",
+        "If a name of a change is provided, that would be great."
+      ],
+      "outcomes" : [
+        "verb.change outcome 1",
+        "verb.change outcome 2",
+        "verb.change outcome 3"
+      ],
+      "definition" : [
+        "verbs of size, temperature change, intensifying, etc."
+      ]
+    },
+    {
+      "label" : "verb.contact",
+      "features" : [
+        "contact",
+        "Anything that defines a contact.",
+        "What about defining contacts?",
+        "If a name of a contact is provided, that would be great."
+      ],
+      "outcomes" : [
+        "verb.contact outcome 1",
+        "verb.contact outcome 2",
+        "verb.contact outcome 3"
+      ],
+      "definition" : [
+        "verbs of touching, hitting, tying, digging"
+      ]
+    },
+    {
+      "label" : "verb.communication",
+      "features" : [
+        "communication",
+        "Anything that defines a communication.",
+        "What about defining communications?",
+        "If a name of a communication is provided, that would be great."
+      ],
+      "outcomes" : [
+        "verb.communication outcome 1",
+        "verb.communication outcome 2",
+        "verb.communication outcome 3"
+      ],
+      "definition" : [
+        "verbs of telling, asking, ordering, singing"
+      ]
+    },
+    {
+      "label" : "verb.motion",
+      "features" : [
+        "motion",
+        "Anything that defines a motion.",
+        "What about defining motions?",
+        "If a name of a motion is provided, that would be great."
+      ],
+      "outcomes" : [
+        "verb.motion outcome 1",
+        "verb.motion outcome 2",
+        "verb.motion outcome 3"
+      ],
+      "definition" : [
+        "verbs of walking, flying, swimming"
+      ]
+    },
+    {
+      "label" : "verb.social",
+      "features" : [
+        "social",
+        "Anything that defines a social.",
+        "What about defining socials?",
+        "If a name of a social is provided, that would be great."
+      ],
+      "outcomes" : [
+        "verb.social outcome 1",
+        "verb.social outcome 2",
+        "verb.social outcome 3"
+      ],
+      "definition" : [
+        "verbs of political and social activities and events"
+      ]
+    },
+    {
+      "label" : "verb.possession",
+      "features" : [
+        "possession",
+        "Anything that defines a possession.",
+        "What about defining possessions?",
+        "If a name of a possession is provided, that would be great."
+      ],
+      "outcomes" : [
+        "verb.possession outcome 1",
+        "verb.possession outcome 2",
+        "verb.possession outcome 3"
+      ],
+      "definition" : [
+        "verbs of buying, selling, owning"
+      ]
+    },
+    {
+      "label" : "verb.stative",
+      "features" : [
+        "stative",
+        "Anything that defines a stative.",
+        "What about defining statives?",
+        "If a name of a stative is provided, that would be great."
+      ],
+      "outcomes" : [
+        "verb.stative outcome 1",
+        "verb.stative outcome 2",
+        "verb.stative outcome 3"
+      ],
+      "definition" : [
+        "verbs of being, having, spatial relations"
+      ]
+    },
+    {
+      "label" : "verb.creation",
+      "features" : [
+        "creation",
+        "Anything that defines a creation.",
+        "What about defining creations?",
+        "If a name of a creation is provided, that would be great."
+      ],
+      "outcomes" : [
+        "verb.creation outcome 1",
+        "verb.creation outcome 2",
+        "verb.creation outcome 3"
+      ],
+      "definition" : [
+        "verbs of sewing, baking, painting, performing"
+      ]
+    },
+    {
+      "label" : "verb.cognition",
+      "features" : [
+        "cognition",
+        "Anything that defines a cognition.",
+        "What about defining cognitions?",
+        "If a name of a cognition is provided, that would be great."
+      ],
+      "outcomes" : [
+        "verb.cognition outcome 1",
+        "verb.cognition outcome 2",
+        "verb.cognition outcome 3"
+      ],
+      "definition" : [
+        "verbs of thinking, judging, analyzing, doubting"
+      ]
+    },
+    {
+      "label" : "verb.body",
+      "features" : [
+        "body",
+        "Anything that defines a body.",
+        "What about defining bodies?",
+        "If a name of a body is provided, that would be great."
+      ],
+      "outcomes" : [
+        "verb.body outcome 1",
+        "verb.body outcome 2",
+        "verb.body outcome 3"
+      ],
+      "definition" : [
+        "verbs of grooming, dressing and bodily care"
+      ]
+    },
+    {
+      "label" : "verb.perception",
+      "features" : [
+        "perception",
+        "Anything that defines a perception.",
+        "What about defining perceptions?",
+        "If a name of a perception is provided, that would be great."
+      ],
+      "outcomes" : [
+        "verb.perception outcome 1",
+        "verb.perception outcome 2",
+        "verb.perception outcome 3"
+      ],
+      "definition" : [
+        "verbs of seeing, hearing, feeling"
+      ]
+    },
+    {
+      "label" : "verb.competition",
+      "features" : [
+        "competition",
+        "Anything that defines a competition.",
+        "What about defining competition?",
+        "If a name of a competition is provided, that would be great."
+      ],
+      "outcomes" : [
+        "verb.competition outcome 1",
+        "verb.competition outcome 2",
+        "verb.competition outcome 3"
+      ],
+      "definition" : [
+        "verbs of fighting, athletic activities"
+      ]
+    },
+    {
+      "label" : "verb.emotion",
+      "features" : [
+        "emotion",
+        "Anything that defines a emotion.",
+        "What about defining emotions?",
+        "If a name of a emotion is provided, that would be great."
+      ],
+      "outcomes" : [
+        "verb.emotion outcome 1",
+        "verb.emotion outcome 2",
+        "verb.emotion outcome 3"
+      ],
+      "definition" : [
+        "verbs of feeling"
+      ]
+    },
+    {
+      "label" : "verb.consumption",
+      "features" : [
+        "consumption",
+        "Anything that defines a consumption.",
+        "What about defining consumptions?",
+        "If a name of a consumption is provided, that would be great."
+      ],
+      "outcomes" : [
+        "verb.consumption outcome 1",
+        "verb.consumption outcome 2",
+        "verb.consumption outcome 3"
+      ],
+      "definition" : [
+        "verbs of eating and drinking"
+      ]
+    },
+    {
+      "label" : "verb.weather",
+      "features" : [
+        "weather",
+        "Anything that defines a weather.",
+        "What about defining weathers?",
+        "If a name of a weather is provided, that would be great."
+      ],
+      "outcomes" : [
+        "verb.weather outcome 1",
+        "verb.weather outcome 2",
+        "verb.weather outcome 3"
+      ],
+      "definition" : [
+        "verbs of raining, snowing, thawing, thundering"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,498 @@
+{
+  "intents" : [
+    {
+      "label" : "noun.artifact",
+      "features" : [
+        "man-made artifact",
+        "man-made item",
+        "man-made thing",
+        "human-made artifact",
+        "human-made item",
+        "human-made thing"
+      ],
+      "outcomes" : [
+        "noun.artifact outcome 1",
+        "noun.artifact outcome 2",
+        "noun.artifact outcome 3"
+      ],
+      "definition" : [
+        "nouns denoting man-made objects"
+      ]
+    },
+    {
+      "label" : "noun.person",
+      "features" : [
+        "people",
+        "person",
+        "Anything that defines people",
+        "What about defining a person?"
+      ],
+      "outcomes" : [
+        "noun.person outcome 1",
+        "noun.person outcome 2",
+        "noun.person outcome 3"
+      ],
+      "definition" : [
+        "nouns denoting people"
+      ]
+    },
+    {
+      "label" : "noun.plant",
+      "features" : [
+        "plant",
+        "Anything that defines plants",
+        "What about defining a plant?",
+        "If a plant name is provided, that would be great."
+      ],
+      "outcomes" : [
+        "noun.plant outcome 1",
+        "noun.plant outcome 2",
+        "noun.plant outcome 3"
+      ],
+      "definition" : [
+        "nouns denoting plants"
+      ]
+    },
+    {
+      "label" : "noun.animal",
+      "features" : [
+        "animal",
+        "Anything that defines animals.",
+        "What about defining a animal?",
+        "If a name of an animal is provided, that would be great."
+      ],
+      "outcomes" : [
+        "noun.animal outcome 1",
+        "noun.animal outcome 2",
+        "noun.animal outcome 3"
+      ],
+      "definition" : [
+        "nouns denoting animals"
+      ]
+    },
+    {
+      "label" : "noun.act",
+      "features" : [
+        "act",
+        "action",
+        "Anything that defines acts",
+        "What about defining an act?",
+        "If an act name is provided, that would be great.",
+        "Anything that defines actions",
+        "What about defining an action?",
+        "If an action-related name is provided, that would be great."
+      ],
+      "outcomes" : [
+        "noun.act outcome 1",
+        "noun.act outcome 2",
+        "noun.act outcome 3"
+      ],
+      "definition" : [
+        "nouns denoting acts or actions"
+      ]
+    },
+    {
+      "label" : "noun.communication",
+      "features" : [
+        "communication",
+        "Anything that defines communication.",
+        "What about defining communication?",
+        "If a name of some communication is provided, that would be great."
+      ],
+      "outcomes" : [
+        "noun.communication outcome 1",
+        "noun.communication outcome 2",
+        "noun.communication outcome 3"
+      ],
+      "definition" : [
+        "nouns denoting communicative processes and contents"
+      ]
+    },
+    {
+      "label" : "noun.state",
+      "features" : [
+        "state",
+        "Anything that defines state.",
+        "What about defining a state?",
+        "If a name of an state is provided, that would be great."
+      ],
+      "outcomes" : [
+        "noun.state outcome 1",
+        "noun.state outcome 2",
+        "noun.state outcome 3"
+      ],
+      "definition" : [
+        "nouns denoting stable states of affairs"
+      ]
+    },
+    {
+      "label" : "noun.attribute",
+      "features" : [
+        "attribute",
+        "Anything that defines attribute.",
+        "What about defining a attribute?",
+        "If a name of an attribute is provided, that would be great."
+      ],
+      "outcomes" : [
+        "noun.attribute outcome 1",
+        "noun.attribute outcome 2",
+        "noun.attribute outcome 3"
+      ],
+      "definition" : [
+        "nouns denoting attributes of people and objects"
+      ]
+    },
+    {
+      "label" : "noun.location",
+      "features" : [
+        "location in space",
+        "spatial location",
+        "Anything that defines a location.",
+        "What about defining a location?",
+        "If a name of an location is provided, that would be great."
+      ],
+      "outcomes" : [
+        "noun.location outcome 1",
+        "noun.location outcome 2",
+        "noun.location outcome 3"
+      ],
+      "definition" : [
+        "nouns denoting spatial position"
+      ]
+    },
+    {
+      "label" : "noun.cognition",
+      "features" : [
+        "cognition",
+        "Anything that defines a cognition.",
+        "What about defining a cognition?",
+        "If a name of a cognition is provided, that would be great."
+      ],
+      "outcomes" : [
+        "noun.cognition outcome 1",
+        "noun.cognition outcome 2",
+        "noun.cognition outcome 3"
+      ],
+      "definition" : [
+        "nouns denoting cognitive processes and contents"
+      ]
+    },
+    {
+      "label" : "noun.substance",
+      "features" : [
+        "substance",
+        "Anything that defines a substance.",
+        "What about defining a substance?",
+        "If a name of a substance is provided, that would be great."
+      ],
+      "outcomes" : [
+        "noun.substance outcome 1",
+        "noun.substance outcome 2",
+        "noun.substance outcome 3"
+      ],
+      "definition" : [
+        "nouns denoting substances"
+      ]
+    },
+    {
+      "label" : "noun.group",
+      "features" : [
+        "group",
+        "Anything that defines a group.",
+        "What about defining a group?",
+        "If a name of a group is provided, that would be great."
+      ],
+      "outcomes" : [
+        "noun.group outcome 1",
+        "noun.group outcome 2",
+        "noun.group outcome 3"
+      ],
+      "definition" : [
+        "nouns denoting groupings of people or objects"
+      ]
+    },
+    {
+      "label" : "noun.food",
+      "features" : [
+        "food",
+        "Anything that defines food.",
+        "What about defining some food?",
+        "If a name of food is provided, that would be great.",
+        "edible",
+        "Anything that defines an edible thing.",
+        "What about defining an edible item?",
+        "If a name of an edible food is provided, that would be great.",
+        "eatable",
+        "Anything that defines a eatable thing.",
+        "What about defining an eatable item?",
+        "If a name of an eatable food is provided, that would be great."
+      ],
+      "outcomes" : [
+        "noun.food outcome 1",
+        "noun.food outcome 2",
+        "noun.food outcome 3"
+      ],
+      "definition" : [
+        "nouns denoting foods and drinks"
+      ]
+    },
+    {
+      "label" : "noun.body",
+      "features" : [
+        "body",
+        "Anything that defines a body.",
+        "What about defining body?",
+        "If a name of a body is provided, that would be great.",
+        "body part",
+        "Anything that defines a body part.",
+        "What about defining body part?",
+        "If a name of a body part is provided, that would be great.",
+        "part of the body",
+        "Anything that defines a part of the body.",
+        "What about defining part of the body?",
+        "If a name of a part of the body is provided, that would be great."
+      ],
+      "outcomes" : [
+        "noun.body outcome 1",
+        "noun.body outcome 2",
+        "noun.body outcome 3"
+      ],
+      "definition" : [
+        "nouns denoting body parts"
+      ]
+    },
+    {
+      "label" : "noun.object",
+      "features" : [
+        "natural object",
+        "nature-made object",
+        "Anything that defines a natural object.",
+        "What about defining natural objects?",
+        "If a name of a natural object is provided, that would be great.",
+        "Anything that defines a nature-made object.",
+        "What about defining nature-made objects?",
+        "If a name of a nature-made object is provided, that would be great."
+      ],
+      "outcomes" : [
+        "noun.object outcome 1",
+        "noun.object outcome 2",
+        "noun.object outcome 3"
+      ],
+      "definition" : [
+        "nouns denoting natural objects (not man-made)"
+      ]
+    },
+    {
+      "label" : "noun.quantity",
+      "features" : [
+        "quantity",
+        "Anything that defines a quantity.",
+        "What about defining quantity?",
+        "If a name of a quantity is provided, that would be great.",
+        "measure",
+        "Anything that defines a measure.",
+        "What about defining measure?",
+        "If a name of a measure is provided, that would be great.",
+        "metric",
+        "Anything that defines a metric.",
+        "What about defining metric?",
+        "If a name of a metric is provided, that would be great."
+      ],
+      "outcomes" : [
+        "noun.quantity outcome 1",
+        "noun.quantity outcome 2",
+        "noun.quantity outcome 3"
+      ],
+      "definition" : [
+        "nouns denoting quantities and units of measure"
+      ]
+    },
+    {
+      "label" : "noun.possession",
+      "features" : [
+        "possession",
+        "Anything that defines a possession.",
+        "What about defining possession?",
+        "If a name of a possession is provided, that would be great.",
+        "transfer of possession",
+        "Anything that defines a transfer of possession.",
+        "What about defining transfer of possession?",
+        "If a name of a transfer of possession is provided, that would be great.",
+        "possession transfer",
+        "Anything that defines a possession transfer.",
+        "What about defining possession transfer?",
+        "If a name of a possession transfer is provided, that would be great."
+      ],
+      "outcomes" : [
+        "noun.possession outcome 1",
+        "noun.possession outcome 2",
+        "noun.possession outcome 3"
+      ],
+      "definition" : [
+        "nouns denoting possession and transfer of possession"
+      ]
+    },
+    {
+      "label" : "noun.event",
+      "features" : [
+        "event",
+        "Anything that defines an event.",
+        "What about defining events?",
+        "If a name of an event is provided, that would be great.",
+        "natural event"
+      ],
+      "outcomes" : [
+        "noun.event outcome 1",
+        "noun.event outcome 2",
+        "noun.event outcome 3"
+      ],
+      "definition" : [
+        "nouns denoting natural events"
+      ]
+    },
+    {
+      "label" : "noun.time",
+      "features" : [
+        "time",
+        "temporal",
+        "Anything that defines time.",
+        "What about defining time?",
+        "If a name of an time is provided, that would be great."
+      ],
+      "outcomes" : [
+        "noun.time outcome 1",
+        "noun.time outcome 2",
+        "noun.time outcome 3"
+      ],
+      "definition" : [
+        "nouns denoting time and temporal relations"
+      ]
+    },
+    {
+      "label" : "noun.process",
+      "features" : [
+        "process",
+        "natural process",
+        "Anything that defines a process.",
+        "What about defining processes?",
+        "If a name of a process is provided, that would be great."
+      ],
+      "outcomes" : [
+        "noun.process outcome 1",
+        "noun.process outcome 2",
+        "noun.process outcome 3"
+      ],
+      "definition" : [
+        "nouns denoting natural processes"
+      ]
+    },
+    {
+      "label" : "noun.phenomenon",
+      "features" : [
+        "phenomenon",
+        "natural phenomenon",
+        "Anything that defines a phenomenon.",
+        "What about defining phenomena?",
+        "If a name of a phenomenon is provided, that would be great."
+      ],
+      "outcomes" : [
+        "noun.phenomenon outcome 1",
+        "noun.phenomenon outcome 2",
+        "noun.phenomenon outcome 3"
+      ],
+      "definition" : [
+        "nouns denoting natural phenomena"
+      ]
+    },
+    {
+      "label" : "noun.relation",
+      "features" : [
+        "relation",
+        "Anything that defines a relation.",
+        "What about defining relations?",
+        "If a name of a relation is provided, that would be great."
+      ],
+      "outcomes" : [
+        "noun.relation outcome 1",
+        "noun.relation outcome 2",
+        "noun.relation outcome 3"
+      ],
+      "definition" : [
+        "nouns denoting relations between people or things or ideas"
+      ]
+    },
+    {
+      "label" : "noun.feeling",
+      "features" : [
+        "feeling",
+        "Anything that defines a feeling.",
+        "What about defining feelings?",
+        "If a name of a feeling is provided, that would be great."
+      ],
+      "outcomes" : [
+        "noun.feeling outcome 1",
+        "noun.feeling outcome 2",
+        "noun.feeling outcome 3"
+      ],
+      "definition" : [
+        "nouns denoting feelings and emotions"
+      ]
+    },
+    {
+      "label" : "noun.shape",
+      "features" : [
+        "shape",
+        "Anything that defines a shape.",
+        "What about defining shapes?",
+        "If a name of a shape is provided, that would be great."
+      ],
+      "outcomes" : [
+        "noun.shape outcome 1",
+        "noun.shape outcome 2",
+        "noun.shape outcome 3"
+      ],
+      "definition" : [
+        "nouns denoting two and three dimensional shapes"
+      ]
+    },
+    {
+      "label" : "noun.Tops",
+      "features" : [
+        "beginner",
+        "starter",
+        "Anything that defines a starter.",
+        "What about defining beginners for starters?",
+        "If a name of a starter for nouns is provided, that would be great."
+      ],
+      "outcomes" : [
+        "noun.Tops outcome 1",
+        "noun.Tops outcome 2",
+        "noun.Tops outcome 3"
+      ],
+      "definition" : [
+        "unique beginner for nouns"
+      ]
+    },
+    {
+      "label" : "noun.motive",
+      "features" : [
+        "goal",
+        "Anything that defines a goal.",
+        "What about defining goals?",
+        "If a name of a goal is provided, that would be great.",
+        "motive",
+        "Anything that defines a motive.",
+        "What about defining motive?",
+        "If a name of a motives is provided, that would be great."
+      ],
+      "outcomes" : [
+        "noun.motive outcome 1",
+        "noun.motive outcome 2",
+        "noun.motive outcome 3"
+      ],
+      "definition" : [
+        "nouns denoting goals"
+      ]
+    }
+  ]
+}

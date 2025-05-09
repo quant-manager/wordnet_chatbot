@@ -1,0 +1,584 @@
+{
+  "question" : "Which sense relation type to another concept are you interested in?",
+  "intents" : [
+    {
+      "label" : "derivation",
+      "features" : [
+        "A derivation.",
+        "A derivational sense relation.",
+        "I am interested in a concept which is a derivationally related form of a given concept.",
+        "A derivational relation is my choice.",
+        "I am interested in a concept which is derived from this sense of the word."
+      ],
+      "outcomes" : [
+        "derivation outcome 1",
+        "derivation outcome 2",
+        "derivation outcome 3"
+      ],
+      "reverse_label" : "derivation",
+      "definition" : [
+        "Derivation is a relation between two concept where Concept A is the derivationally related form of Concept B."
+      ],
+      "comments" : [
+      ],
+      "link" : "https://globalwordnet.github.io/gwadoc/#derivation",
+      "examples" : {
+        "yearly" : "year",
+        "want" : "wanted",
+        "provision" : "provide"
+      }
+    },
+    {
+      "label" : "pertainym",
+      "features" : [
+        "A pertainym.",
+        "A pertainym sense relation.",
+        "A pertaining sense relation.",
+        "I am interested in a concept which is pertaining to a given concept.",
+        "A pertaining relation is my choice.",
+        "I am interested in a concept which pertains to this sense of the word.",
+        "What pertains to this concept?"
+      ],
+      "outcomes" : [
+        "pertainym outcome 1",
+        "pertainym outcome 2",
+        "pertainym outcome 3"
+      ],
+      "reverse_label" : "pertainym",
+      "definition" : [
+        "Pertainym is a relation between two concepts where Concept A is related or applicable to Concept B. Typically A will be an adjective and B a noun, or A an adverb and B an adjective. It is typically used for adjectives that are morphologically related to the noun they are related to, are not gradable and do not have antonyms. It is also used for nouns that are semantically related but not morphologically related, typically because came from different languages historically, so lunar for moon or arborial for tree."
+      ],
+      "comments" : [
+        "This may be specialized further. It includes zero derivations. Gnerally it is used for different syntactic categories that have the same root form and are semantically related. Wordnet does not say which is the baseform, the relationship is fully reversible."
+      ],
+      "link" : "https://globalwordnet.github.io/gwadoc/#pertainym",
+      "examples" : {
+        "lunar" : "moon",
+        "naval" : "navy",
+        "slowly" : "slow",
+        "English" : "England",
+        "subclinical" : "clinical",
+        "clinical" : "clinic"
+      }
+    },
+    {
+      "label" : "antonym",
+      "features" : [
+        "A antonym.",
+        "A antonym sense relation.",
+        "I am interested in a concept which is opposing to a given concept.",
+        "An opposing relation is my choice.",
+        "I am interested in a concept which is opposite to this sense of the word.",
+        "What is the antonym for this word?"
+      ],
+      "outcomes" : [
+        "antonym outcome 1",
+        "antonym outcome 2",
+        "antonym outcome 3"
+      ],
+      "reverse_label" : "antonym",
+      "definition" : [
+        "Two words are antonyms if their meanings are opposite in some way such as: (1) The two words show binary opposition: superior vs inferior (simple); (2) The two words are near the opposite ends of a spectrum: hot vs cold (gradable); (3) The two words express change or movement in opposite directions: buy vs sell (converse).",
+        "Antonymy can link any two members of any part-of-speech — verbs (e.g. dress vs. undress), adverbs (e.g. naturally vs. unnaturally), adjectives (e.g. superior vs. inferior) and nouns (e.g. catalyst vs. anti-catalyst), but should only ever link concepts with the same part-of-speech.",
+        "Antonymy is not transitive: If A is an antonym of B and B an antonym of C, then A is not necessarily and antonym of A. Consider domestic <=> national <=> international: it does not follow that domestic <=> international, or sister <=> brother <=> sister does not imply sister <=> sister. "
+      ],
+      "comments" : [
+        "It is primarily a relation between senses, but sense level antonymy implies a looser synset level relation, which we automatically add to make it avaiable for wordnets that do not yet have sense level links.",
+        "plWordnet distinguishes between 'conversion' which is the same relationship form different points of vie, like wife and husband and normal antonymy, (plwordnet p27), proper and complementary antonymy."
+      ],
+      "link" : "https://globalwordnet.github.io/gwadoc/#antonym",
+      "examples" : {
+        "smart" : "stupid",
+        "man" : "woman",
+        "superior" : "inferior",
+        "buy" : "sell",
+        "northen" : "southern",
+        "homosexual" : "heterosexual",
+        "sister" : "brother"
+      }
+    },
+    {
+      "label" : "exemplifies",
+      "features" : [
+        "A generalization.",
+        "A class.",
+        "A type.",
+        "A generalizing sense relation.",
+        "I am interested in a concept which is a generalization to a given concept.",
+        "I am interested in a concept which is a class of a given concept.",
+        "I am interested in a concept which is a type of a given concept.",
+        "A generalizing relation is my choice.",
+        "I am interested in a concept which is more generalized."
+      ],
+      "outcomes" : [
+        "exemplifies outcome 1",
+        "exemplifies outcome 2",
+        "exemplifies outcome 3"
+      ],
+      "reverse_label" : "is_exemplified_by",
+      "definition" : [
+        "Exemplifies is a relation between two concepts where Concept A is the example of Concept B."
+      ],
+      "comments" : [
+        "The name was changed from 'Member of this domain - USAGE' as we found it too different from the standard meaning of domain."
+      ],
+      "link" : "https://globalwordnet.github.io/gwadoc/#exemplifies",
+      "examples" : {
+        "wings" : "plural form",
+        "Band Aid" : "trademark"
+      }
+    },
+    {
+      "label" : "is_exemplified_by",
+      "features" : [
+        "An instance.",
+        "A specialization.",
+        "A special case.",
+        "An example.",
+        "An exemplification.",
+        "A specializing sense relation.",
+        "I am interested in a concept which is a special case of a given concept.",
+        "I am interested in a concept which is a specialization of a given concept.",
+        "I am interested in a concept which is an example a given concept.",
+        "I am interested in a concept which is an instance of a given concept.",
+        "A specializing relation is my choice.",
+        "I am interested in a concept which is more specialized relative to this sense of the word."
+      ],
+      "outcomes" : [
+        "is_exemplified_by outcome 1",
+        "is_exemplified_by outcome 2",
+        "is_exemplified_by outcome 3"
+      ],
+      "reverse_label" : "exemplifies",
+      "definition" : [
+        "Is Exemplified By is a relation between two concepts where Concept B is a type of Concept A, such as idiom, honorific or classifier."
+      ],
+      "comments" : [
+        "May be changed to 'Exemplified_By'."
+      ],
+      "link" : "https://globalwordnet.github.io/gwadoc/#is_exemplified_by",
+      "examples" : {
+        "trademark" : "Band Aid",
+        "plural form" : "wings"
+      }
+    },
+    {
+      "label" : "also",
+      "features" : [
+        "A loose sematic relation.",
+        "A vague relation.",
+        "Somewhat related concept.",
+        "Weakly related concept.",
+        "A weak sense relation.",
+        "I am interested in a concept which is a loosely related a given concept.",
+        "I am interested in a concept which is weakly related a given concept.",
+        "I am interested in a concept which is hardly associated with given concept.",
+        "I am interested in a concept which is barely linked to a given concept.",
+        "A weak relation is my choice.",
+        "A loose relation is my choice.",
+        "I am interested in a concept which is slightly related to this sense of the word."
+      ],
+      "outcomes" : [
+        "also outcome 1",
+        "also outcome 2",
+        "also outcome 3"
+      ],
+      "reverse_label" : "also",
+      "definition" : [
+        "‘See Also’ is a self-reciprocal link (the two directions of this relation share the same meaning) — Concept-A relates to Concept-B, and Concept-B relates to Concept-A.",
+        "It denotes a relation of related meaning with another concept (going beyond synonymy and similarity).",
+        "This link was only used to relate adjectives and verbs in Princeton wordnet, but we have unconstrained this use, and we're making use of this link to relate all parts-of-speech."
+      ],
+      "comments" : [
+        "This could perhaps be merged with other"
+      ],
+      "link" : "https://globalwordnet.github.io/gwadoc/#also",
+      "examples" : {
+        "time" : "moment",
+        "farmer" : "farmland",
+        "learn" : "school",
+        "picture" : "sculpture",
+        "plant" : "flower",
+        "walk" : "park"
+      }
+    },
+    {
+      "label" : "participle",
+      "features" : [
+        "A verb for this participial adjective.",
+        "Participial adjective is the objective."
+      ],
+      "outcomes" : [
+        "participle outcome 1",
+        "participle outcome 2",
+        "participle outcome 3"
+      ],
+      "reverse_label" : "",
+      "definition" : [
+        "Participle is a relation between two concepts where Concept A is a participial adjective which is derived from Concept B in the form of verb."
+      ],
+      "comments" : [
+        "These are not linked in the NLTK interface so are not shown in OMW 1.0 (or as far as I can see, anywhere FCB)"
+      ],
+      "link" : "https://globalwordnet.github.io/gwadoc/#participle",
+      "examples" : {
+        "interesting" : "interest",
+        "amazing" : "amaze"
+      }
+    },
+    {
+      "label" : "similar",
+      "features" : [
+        "Something similar.",
+        "Closely related meanings",
+        "I am interested in a concept which is similar with a given concept.",
+        "I am interested in a concept which is closely related with a given concept."
+      ],
+      "outcomes" : [
+        "similar outcome 1",
+        "similar outcome 2",
+        "similar outcome 3"
+      ],
+      "reverse_label" : "similar",
+      "definition" : [
+        "A relation between two concepts where concept A and concept B are closely related in meaning but are not in the same synset. Similarity is a self-reciprocal link (the two directions of this relation share the same meaning) — Concept-A is similar to Concept-B, and Concept-B is similar to Concept-A.",
+        "This link was originally used to relate adjectives, but we have unconstrained this use, and we're making use of this link to relate all parts-of-speech.",
+        "Similarity can be understood as weak synonymy, opposed to the full synonymy that all lemmas in a concept must share. As adjectives are not structured hierarchically (hyponymy/hypernymy) like verbs or nouns, the similarity link helps showing relations between them."
+      ],
+      "comments" : [
+        "This relation coerces PWN Similar to relation for adjectives, Verb Group relation for verbs and EWN NEAR_SYNONYM for nouns and verbs. In plWN Similarity relation for adjectives to nouns is a unilateral sense relation which is why it is not given in the mappings below."
+      ],
+      "link" : "https://globalwordnet.github.io/gwadoc/#similar",
+      "examples" : {
+        "tool" : "instrument",
+        "instrument" : "tools"
+      }
+    },
+    {
+      "label" : "other-event",
+      "features" : [
+        "An event.",
+        "An occurrence.",
+        "An incident.",
+        "An episode.",
+        "I am interested in a concept which is an event.",
+        "An event is something that I need.",
+        "Please, tell me an event."
+      ],
+      "outcomes" : [
+        "other-event outcome 1",
+        "other-event outcome 2",
+        "other-event outcome 3"
+      ],
+      "reverse_label" : "",
+      "definition" : [
+        ""
+      ],
+      "comments" : [
+        ""
+      ],
+      "link" : "",
+      "examples" : {
+      }
+    },
+    {
+      "label" : "other-agent",
+      "features" : [
+        "An agent.",
+        "I am interested in a concept which is an agent.",
+        "An agent is something that I need.",
+        "Please, tell me about an agent.",
+        "An actor.",
+        "I am interested in a concept which is an actor.",
+        "An actor is something that I need.",
+        "Please, tell me about an actor."
+      ],
+      "outcomes" : [
+        "other-agent outcome 1",
+        "other-agent outcome 2",
+        "other-agent outcome 3"
+      ],
+      "reverse_label" : "",
+      "definition" : [
+        ""
+      ],
+      "comments" : [
+        ""
+      ],
+      "link" : "",
+      "examples" : {
+      }
+    },
+    {
+      "label" : "other-result",
+      "features" : [
+        "An result.",
+        "I am interested in a concept which is an result.",
+        "A result is something that I need.",
+        "Please, tell me a result.",
+        "An outcome.",
+        "I am interested in a concept which is an outcome.",
+        "A outcome is something that I need.",
+        "Please, tell me an outcome."
+      ],
+      "outcomes" : [
+        "other-result outcome 1",
+        "other-result outcome 2",
+        "other-result outcome 3"
+      ],
+      "reverse_label" : "",
+      "definition" : [
+        ""
+      ],
+      "comments" : [
+        ""
+      ],
+      "link" : "",
+      "examples" : {
+      }
+    },
+    {
+      "label" : "other-by_means_of",
+      "features" : [
+        "By means of.",
+        "Employing",
+        "with the assistance of",
+        "through the agency of",
+        "by the agency of",
+        "with the aid of",
+        "under the aegis of",
+        "with the help of"
+      ],
+      "outcomes" : [
+        "other-by_means_of outcome 1",
+        "other-by_means_of outcome 2",
+        "other-by_means_of outcome 3"
+      ],
+      "reverse_label" : "",
+      "definition" : [
+        ""
+      ],
+      "comments" : [
+        ""
+      ],
+      "link" : "https://www.wordhippo.com/what-is/another-word-for/by_means_of.html",
+      "examples" : {
+      }
+    },
+    {
+      "label" : "other-undergoer",
+      "features" : [
+        "Undergoer.",
+        "Experiencing.",
+        "Facing."
+      ],
+      "outcomes" : [
+        "other-undergoer outcome 1",
+        "other-undergoer outcome 2",
+        "other-undergoer outcome 3"
+      ],
+      "reverse_label" : "",
+      "definition" : [
+        ""
+      ],
+      "comments" : [
+        ""
+      ],
+      "link" : "",
+      "examples" : {
+      }
+    },
+    {
+      "label" : "other-instrument",
+      "features" : [
+        "Instrument."
+      ],
+      "outcomes" : [
+        "other-instrument outcome 1",
+        "other-instrument outcome 2",
+        "other-instrument outcome 3"
+      ],
+      "reverse_label" : "",
+      "definition" : [
+        ""
+      ],
+      "comments" : [
+        ""
+      ],
+      "link" : "",
+      "examples" : {
+      }
+    },
+    {
+      "label" : "other-uses",
+      "features" : [
+        "Uses.",
+        "Using.",
+        "Utilizes.",
+        "Utilizing."
+      ],
+      "outcomes" : [
+        "other-uses outcome 1",
+        "other-uses outcome 2",
+        "other-uses outcome 3"
+      ],
+      "reverse_label" : "",
+      "definition" : [
+        ""
+      ],
+      "comments" : [
+        ""
+      ],
+      "link" : "",
+      "examples" : {
+      }
+    },
+    {
+      "label" : "other-state",
+      "features" : [
+        "State."
+      ],
+      "outcomes" : [
+        "other-state outcome 1",
+        "other-state outcome 2",
+        "other-state outcome 3"
+      ],
+      "reverse_label" : "",
+      "definition" : [
+        ""
+      ],
+      "comments" : [
+        ""
+      ],
+      "link" : "",
+      "examples" : {
+      }
+    },
+    {
+      "label" : "other-property",
+      "features" : [
+        "Property."
+      ],
+      "outcomes" : [
+        "other-property outcome 1",
+        "other-property outcome 2",
+        "other-property outcome 3"
+      ],
+      "reverse_label" : "",
+      "definition" : [
+        ""
+      ],
+      "comments" : [
+        ""
+      ],
+      "link" : "",
+      "examples" : {
+      }
+    },
+    {
+      "label" : "other-location",
+      "features" : [
+        "Location."
+      ],
+      "outcomes" : [
+        "other-location outcome 1",
+        "other-location outcome 2",
+        "other-location outcome 3"
+      ],
+      "reverse_label" : "",
+      "definition" : [
+        ""
+      ],
+      "comments" : [
+        ""
+      ],
+      "link" : "",
+      "examples" : {
+      }
+    },
+    {
+      "label" : "other-vehicle",
+      "features" : [
+        "Vehicle."
+      ],
+      "outcomes" : [
+        "other-vehicle outcome 1",
+        "other-vehicle outcome 2",
+        "other-vehicle outcome 3"
+      ],
+      "reverse_label" : "",
+      "definition" : [
+        ""
+      ],
+      "comments" : [
+        ""
+      ],
+      "link" : "",
+      "examples" : {
+      }
+    },
+    {
+      "label" : "other-material",
+      "features" : [
+        "Material."
+      ],
+      "outcomes" : [
+        "other-material outcome 1",
+        "other-material outcome 2",
+        "other-material outcome 3"
+      ],
+      "reverse_label" : "",
+      "definition" : [
+        ""
+      ],
+      "comments" : [
+        ""
+      ],
+      "link" : "",
+      "examples" : {
+      }
+    },
+    {
+      "label" : "other-body_part",
+      "features" : [
+        "Body part."
+      ],
+      "outcomes" : [
+        "other-body_part outcome 1",
+        "other-body_part outcome 2",
+        "other-body_part outcome 3"
+      ],
+      "reverse_label" : "",
+      "definition" : [
+        ""
+      ],
+      "comments" : [
+        ""
+      ],
+      "link" : "",
+      "examples" : {
+      }
+    },
+    {
+      "label" : "other-destination",
+      "features" : [
+        "Destination."
+      ],
+      "outcomes" : [
+        "other-destination outcome 1",
+        "other-destination outcome 2",
+        "other-destination outcome 3"
+      ],
+      "reverse_label" : "",
+      "definition" : [
+        ""
+      ],
+      "comments" : [
+        ""
+      ],
+      "link" : "",
+      "examples" : {
+      }
+    }
+  ]
+}

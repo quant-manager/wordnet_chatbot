@@ -1,0 +1,60 @@
+{
+  "intents" : [
+    {
+      "label" : "adj.all",
+      "features" : [
+        "every",
+        "each",
+        "Anything that defines every.",
+        "What about defining every?",
+        "If a name of every is provided, that would be great."
+      ],
+      "outcomes" : [
+        "adj.all outcome 1",
+        "adj.all outcome 2",
+        "adj.all outcome 3"
+      ],
+      "definition" : [
+        "all adjective clusters"
+      ]
+    },
+    {
+      "label" : "adj.pert",
+      "features" : [
+        "relational",
+        "Anything that defines relational.",
+        "What about defining relational?",
+        "If a name of relational is provided, that would be great.",
+        "pertainym",
+        "Anything that defines pertainym.",
+        "What about defining pertainym?",
+        "If a name of pertainym is provided, that would be great."
+      ],
+      "outcomes" : [
+        "adj.pert outcome 1",
+        "adj.pert outcome 2",
+        "adj.pert outcome 3"
+      ],
+      "definition" : [
+        "relational adjectives (pertainyms)"
+      ]
+    },
+    {
+      "label" : "adj.ppl",
+      "features" : [
+        "participial",
+        "Anything that defines participial.",
+        "What about defining participial?",
+        "If a name of participial is provided, that would be great."
+      ],
+      "outcomes" : [
+        "adj.ppl outcome 1",
+        "adj.ppl outcome 2",
+        "adj.ppl outcome 3"
+      ],
+      "definition" : [
+        "participial adjectives"
+      ]
+    }
+  ]
+}

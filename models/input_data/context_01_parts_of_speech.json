@@ -1,0 +1,123 @@
+{
+  "question" : "Which part of speech are you interested in?",
+  "intents" : [
+    {
+      "label" : "n",
+      "features" : [
+        "A noun.",
+        "I am interested in a noun.",
+        "A noun is my choice."
+      ],
+      "outcomes" : [
+        "Your interest in nouns is taken into consideration.",
+        "I will try to find a noun for you."
+      ]
+    },
+    {
+      "label" : "v",
+      "features" : [
+        "A verb.",
+        "I am interested in a verb.",
+        "A verb is my choice."
+      ],
+      "outcomes" : [
+        "Your interest in verbs is taken into consideration.",
+        "I will try to find a verb for you."
+      ]
+    },
+    {
+      "label" : "a",
+      "features" : [
+        "An adjective.",
+        "I am interested in an adjective.",
+        "An adjective is my choice."
+      ],
+      "outcomes" : [
+        "Your interest in adjectives is taken into consideration.",
+        "I will try to find an adjective for you."
+      ]
+    },
+    {
+      "label" : "r",
+      "features" : [
+        "An adverb.",
+        "I am interested in an adverb.",
+        "An adverb is my choice."
+      ],
+      "outcomes" : [
+        "Your interest in adverbs is taken into consideration.",
+        "I will try to find an adverb for you."
+      ]
+    },
+    {
+      "label" : "s",
+      "features" : [
+        "An adjective satellite.",
+        "I am interested in an adjective satellite.",
+        "An adjective satellite is my choice."
+      ],
+      "outcomes" : [
+        "Your interest in adjective satellites is taken into consideration.",
+        "I will try to find an adjective satellites for you."
+      ]
+    },
+    {
+      "label" : "p",
+      "features" : [
+        "A pronoun.",
+        "I am interested in a pronoun.",
+        "A pronoun is my choice."
+      ],
+      "outcomes" : [
+        "Pronouns are not supported."
+      ]
+    },
+    {
+      "label" : "t",
+      "features" : [
+        "A preposition.",
+        "I am interested in a preposition.",
+        "A preposition is my choice."
+      ],
+      "outcomes" : [
+        "Prepositions are not supported."
+      ]
+    },
+    {
+      "label" : "c",
+      "features" : [
+        "A conjunction.",
+        "I am interested in a conjunction.",
+        "A conjunction is my choice."
+      ],
+      "outcomes" : [
+        "Conjunctions are not supported."
+      ]
+    },
+    {
+      "label" : "a",
+      "features" : [
+        "An article.",
+        "I am interested in an article.",
+        "An article is my choice.",
+        "A determiner.",
+        "I am interested in an determiner.",
+        "A determiner is my choice."
+      ],
+      "outcomes" : [
+        "Articles (aka determiners) are not supported."
+      ]
+    },
+    {
+      "label" : "i",
+      "features" : [
+        "An interjections.",
+        "I am interested in a interjections.",
+        "An interjections is my choice."
+      ],
+      "outcomes" : [
+        "Interjections are not supported."
+      ]
+    }
+  ]
+}

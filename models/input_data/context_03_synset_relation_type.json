@@ -1,0 +1,682 @@
+{
+  "question" : "Which synset relation type to another concept are you interested in?",
+  "intents" : [
+    {
+      "label" : "hyponym",
+      "features" : [
+        "A hyponym.",
+        "A subtype.",
+        "A narrower concept.",
+        "I am interested in a concept which is a subtype to a given concept.",
+        "I am interested in a concept that is more specific than a given concept.",
+        "A subtyping relation is my choice.",
+        "I am interested in a concept which is more narrow."
+      ],
+      "outcomes" : [
+        "hyponym outcome 1",
+        "hyponym outcome 2",
+        "hyponym outcome 3"
+      ],
+      "reverse_label" : "hypernym",
+      "definition" : [
+        "A hyponym of something is its subtype: if A is a hyponym of B, then all A are B."
+      ],
+      "comments" : [
+        "This is the fundamental relation, generally used for nouns and verbs. In plWordNet it is also extended to adjectives and adverbs."
+      ],
+      "link" : "https://globalwordnet.github.io/gwadoc/#hyponym",
+      "examples" : {
+        "dog" : "animal",
+        "beef" : "meat",
+        "pear" : "edible fruit",
+        "dictionary" : "wordbook"
+      }
+    },
+    {
+      "label" : "hypernym",
+      "features" : [
+        "A hypernym.",
+        "A supertype.",
+        "A broader concept.",
+        "I am interested in a concept which is a supertype to a given concept.",
+        "I am interested in a concept that is more general than a given concept.",
+        "A supertyping relation is my choice.",
+        "I am interested in a concept which is more broad."
+      ],
+      "outcomes" : [
+        "hypernym outcome 1",
+        "hypernym outcome 2",
+        "hypernym outcome 3"
+      ],
+      "reverse_label" : "hyponym",
+      "definition" : [
+        "A hypernym of something is its supertype: if A is a hypernym of B, then all B are A."
+      ],
+      "comments" : [
+        "This is the fundamental relation, generally used for nouns and verbs. In the original Princeton WordNet the name 'troponym' was used for this relation when relating to verbs. In plWordNet it is also extended to adjectives and adverbs."
+      ],
+      "link" : "https://globalwordnet.github.io/gwadoc/#hypernym",
+      "examples" : {
+        "animal" : "dog",
+        "meat" : "beef",
+        "edible fruit" : "pear",
+        "wordbook" : "dictionary"
+      }
+    },
+    {
+      "label" : "similar",
+      "features" : [
+        "Something similar.",
+        "Closely related meanings",
+        "I am interested in a concept which is similar with a given concept.",
+        "I am interested in a concept which is closely related with a given concept."
+      ],
+      "outcomes" : [
+        "similar outcome 1",
+        "similar outcome 2",
+        "similar outcome 3"
+      ],
+      "reverse_label" : "similar",
+      "definition" : [
+        "(of words) expressing closely related meanings.",
+        "A relation between two concepts where concept A and concept B are closely related in meaning but are not in the same synset. Similarity is a self-reciprocal link (the two directions of this relation share the same meaning) - Concept-A is similar to Concept-B, and Concept-B is similar to Concept-A.",
+        "This link was originally used to relate adjectives, but we have unconstrained this use, and we're making use of this link to relate all parts-of-speech.",
+        "Similarity can be understood as weak synonymy, opposed to the full synonymy that all lemmas in a concept must share. As adjectives are not structured hierarchically (hyponymy/hypernymy) like verbs or nouns, the similarity link helps showing relations between them."
+      ],
+      "comments" : [
+        "This relation coerces PWN Similar to relation for adjectives, Verb Group relation for verbs and EWN NEAR_SYNONYM for nouns and verbs. In plWN Similarity relation for adjectives to nouns is a unilateral sense relation which is why it is not given in the mappings below."
+      ],
+      "link" : "https://globalwordnet.github.io/gwadoc/#similar",
+      "examples" : {
+        "tool" : "instrument",
+        "instrument" : "tools"
+      }
+    },
+    {
+      "label" : "holo_member",
+      "features" : [
+        "holo member",
+        "A homogenious holonym.",
+        "A homogenious holonym collection.",
+        "The whole of homogenious concepts.",
+        "A homogenious collection.",
+        "I am interested in a concept which is an homogenious collection of a given concept.",
+        "I am interested in a concept which is the homogenious bag or set of a given concept."
+      ],
+      "outcomes" : [
+        "holo_member outcome 1",
+        "holo_member outcome 2",
+        "holo_member outcome 3"
+      ],
+      "reverse_label" : "mero_member",
+      "definition" : [
+        "Concept B is a member of Concept A",
+        "A relation between two concepts where concept B is a member/ element of concept A. Meronym and Holonym Membership is a paired relation that denotes group formation and membership. Is different from hyponym as it does not relates a sub-kind of a concept. It links groups to members - Concept-B is composed of many members of Concept-A; and many instances of Concept-A form Concept-B."
+      ],
+      "comments" : [
+      ],
+      "link" : "https://globalwordnet.github.io/gwadoc/#holo_member",
+      "examples" : {
+        "player" : "team",
+        "ship" : "fleet"
+      }
+    },
+    {
+      "label" : "mero_member",
+      "features" : [
+        "mero member",
+        "A homogenious meronym member.",
+        "A homogenious member meronym.",
+        "The homogenious constituent.",
+        "An homogenious element.",
+        "I am interested in a concept which is a homogenious element of a given concept.",
+        "I am interested in a concept which is a homogenious constituent of a given concept."
+      ],
+      "outcomes" : [
+        "mero_member outcome 1",
+        "mero_member outcome 2",
+        "mero_member outcome 3"
+      ],
+      "reverse_label" : "holo_member",
+      "definition" : [
+        "Concept A is a member of Concept B",
+        "A relation between two concepts where concept A is a member/ element of concept B. Meronym and Holonym Membership is a paired relation that denotes group formation and membership. Is different from hyponym as it does not relates a sub-kind of a concept. It links groups to members - Many instances of Concept-A form Concept-B; and Concept-B is composed of many members of Concept-A."
+      ],
+      "comments" : [
+      ],
+      "link" : "https://globalwordnet.github.io/gwadoc/#mero_member",
+      "examples" : {
+        "team" : "player",
+        "fleet" : "ship"
+      }
+    },
+    {
+      "label" : "holo_part",
+      "features" : [
+        "holo part",
+        "A heterogenious holonym.",
+        "A heterogenious holonym collection.",
+        "The whole of heterogenious concepts.",
+        "A heterogenious collection.",
+        "I am interested in a concept which is an heterogenious collection of a given concept.",
+        "I am interested in a concept which is the heterogenious bag or set of a given concept."
+      ],
+      "outcomes" : [
+        "holo_part outcome 1",
+        "holo_part outcome 2",
+        "holo_part outcome 3"
+      ],
+      "reverse_label" : "mero_part",
+      "definition" : [
+        "Concept B is the whole where Concept A is a part",
+        "A relation between two concepts where concept B is the whole of the different component of concept A. Meronym and Holonym Part is a paired relation that denotes proper parts (separable, in principle), which preserve a belonging relation even if the physical link is broken - Concept-A can be separated into Concept-B; and Concept-B is a part of some Concept-A.",
+        "This relation is also frequently used to denote geographical inclusiveness relations."
+      ],
+      "comments" : [
+        "The has_holo-part relation typically relates components to their wholes, namely: something which is either topologically or temporally included in a larger entity and which as well bears some kind of autonomy (non-arbitrary boundaries) and a definite function with respect to the whole."
+      ],
+      "link" : "https://globalwordnet.github.io/gwadoc/#holo_part",
+      "examples" : {
+        "wheel" : "car",
+        "thumb" : "glove"
+      }
+    },
+    {
+      "label" : "mero_part",
+      "features" : [
+        "mero part",
+        "A heterogenious meronym member.",
+        "A heterogenious member meronym.",
+        "The heterogenious component.",
+        "A heterogenious part.",
+        "I am interested in a concept which is a heterogenious part of a given concept.",
+        "I am interested in a concept which is a heterogenious component of a given concept."
+      ],
+      "outcomes" : [
+        "mero_part outcome 1",
+        "mero_part outcome 2",
+        "mero_part outcome 3"
+      ],
+      "reverse_label" : "holo_part",
+      "definition" : [
+        "concept A is a component of concept B",
+        "A relation between two concepts where concept A is a component of concept B. Meronym and Holonym Part is a paired relation that denotes proper parts (separable, in principle), which preserve a belonging relation even if the physical link is broken - Concept-A can be separated into Concept-B; and Concept-B is a part of some Concept-A.",
+        "This relation is also frequently used to denote geographical inclusiveness relations."
+      ],
+      "comments" : [
+        "This relation is also frequently used by PWN to denote geographical inclusiveness relations."
+      ],
+      "link" : "https://globalwordnet.github.io/gwadoc/#mero_part",
+      "examples" : {
+        "car" : "wheel",
+        "glove" : "finger"
+      }
+    },
+    {
+      "label" : "instance_hyponym",
+      "features" : [
+        "An instance hyponym.",
+        "An occurrence.",
+        "An individual instance.",
+        "An individual entity.",
+        "Terminal node in the hierarchy."
+      ],
+      "outcomes" : [
+        "instance_hyponym outcome 1",
+        "instance_hyponym outcome 2",
+        "instance_hyponym outcome 3"
+      ],
+      "reverse_label" : "instance_hypernym",
+      "definition" : [
+        "an occurrence of something",
+        "An individual instance of this class",
+        "A relation between two concepts where concept A (instance_hyponym) is a type of concept B (instance_hypernym), and where A is an individual entity. A will be a terminal node in the hierarchy. Instances are expressed by proper nouns.",
+        "An instance hyponym can also be referred to as a type."
+      ],
+      "comments" : [
+        "Hyponymy is a relation between classes of entities. Individual entities can also be said to belong to some class. Although we do not find many instances in a lexical database, the relation is useful for users that want to add particular instances and do not want to consult a separate database. To distinguish it from class hyponymy the relation is dubbed has_instance."
+      ],
+      "link" : "https://globalwordnet.github.io/gwadoc/#instance_hyponym",
+      "examples" : {
+        "city" : "manchester"
+      }
+    },
+    {
+      "label" : "instance_hypernym",
+      "features" : [
+        "An instance hypernym.",
+        "The type.",
+        "The type of this concept.",
+        "The class.",
+        "The class of this concept."
+      ],
+      "outcomes" : [
+        "instance_hypernym outcome 1",
+        "instance_hypernym outcome 2",
+        "instance_hypernym outcome 3"
+      ],
+      "reverse_label" : "instance_hyponym",
+      "definition" : [
+        "the type of an instance",
+        "The class of objects to which this instance belongs",
+        "A relation between two concepts where concept A (instance_hyponym) is a type of concept B (instance_hypernym), and where A is an individual entity. A will be a terminal node in the hierarchy. Instances are expressed by proper nouns.",
+        "An instance hypernym can also be referred to as a type"
+      ],
+      "comments" : [
+        "Sometimes modelled as hyponomy/hypernymy relations."
+      ],
+      "link" : "https://globalwordnet.github.io/gwadoc/#instance_hypernym",
+      "examples" : {
+        "manchester" : "city"
+      }
+    },
+    {
+      "label" : "has_domain_topic",
+      "features" : [
+        "A domain.",
+        "A sphere.",
+        "A area.",
+        "A scientific domain topic.",
+        "A scientific sphere topic.",
+        "A scientific area topic."
+      ],
+      "outcomes" : [
+        "has_domain_topic outcome 1",
+        "has_domain_topic outcome 2",
+        "has_domain_topic outcome 3"
+      ],
+      "reverse_label" : "domain_topic",
+      "definition" : [
+        "A concept which is a term in the scientific category of a given concept.",
+        "Has Domain Topic is a relation between two concepts where Concept A is a scientific category (e.g. computing, sport, biology, etc.) of concept B."
+      ],
+      "comments" : [
+      ],
+      "link" : "https://globalwordnet.github.io/gwadoc/#has_domain_topic",
+      "examples" : {
+        "CPU" : "computer science",
+        "place-kick" : "football",
+        "evergreen" : "plant",
+        "water" : "ocean"
+      }
+    },
+    {
+      "label" : "domain_topic",
+      "features" : [
+        "A scientific category pointer."
+      ],
+      "outcomes" : [
+        "domain_topic outcome 1",
+        "domain_topic outcome 2",
+        "domain_topic outcome 3"
+      ],
+      "reverse_label" : "has_domain_topic",
+      "definition" : [
+        "A concept which is the scientific category pointer of a given concept.",
+        "Indicates the category of this word.",
+        "Domain Topic is a relation between two concepts where Concept B is a scientific category (e.g. computing, sport, biology, etc.) of concept A."
+      ],
+      "comments" : [
+      ],
+      "link" : "https://globalwordnet.github.io/gwadoc/#domain_topic",
+      "examples" : {
+        "computer science" : "CPU",
+        "football" : "place-kick",
+        "plant" : "evergreen",
+        "ocean" : "water"
+      }
+    },
+    {
+      "label" : "also",
+      "features" : [
+        "A loose sematic relation.",
+        "A vague relation.",
+        "Somewhat related concept.",
+        "Weakly related concept.",
+        "A weak sense relation.",
+        "I am interested in a concept which is a loosely related a given concept.",
+        "I am interested in a concept which is weakly related a given concept.",
+        "I am interested in a concept which is hardly associated with given concept.",
+        "I am interested in a concept which is barely linked to a given concept.",
+        "A weak relation is my choice.",
+        "A loose relation is my choice.",
+        "I am interested in a concept which is slightly related to this sense of the word."
+      ],
+      "outcomes" : [
+        "also outcome 1",
+        "also outcome 2",
+        "also outcome 3"
+      ],
+      "reverse_label" : "also",
+      "definition" : [
+        "A word having a loose semantic relation to another word",
+        "See also, a reference of weak meaning",
+        "'See Also' is a self-reciprocal link (the two directions of this relation share the same meaning) - Concept-A relates to Concept-B, and Concept-B relates to Concept-A.",
+        "It denotes a relation of related meaning with another concept (going beyond synonymy and similarity).",
+        "This link was only used to relate adjectives and verbs in Princeton wordnet, but we have unconstrained this use, and we're making use of this link to relate all parts-of-speech."
+      ],
+      "comments" : [
+        "This could perhaps be merged with other"
+      ],
+      "link" : "https://globalwordnet.github.io/gwadoc/#also",
+      "examples" : {
+        "time" : "moment",
+        "farmer" : "farmland",
+        "learn" : "school",
+        "picture" : "sculpture",
+        "plant" : "flower",
+        "walk" : "park"
+      }
+    },
+    {
+      "label" : "exemplifies",
+      "features" : [
+        "A generalization.",
+        "A generalizing sense relation.",
+        "A generalizing relation is my choice.",
+        "A more generalized concept."
+      ],
+      "outcomes" : [
+        "exemplifies outcome 1",
+        "exemplifies outcome 2",
+        "exemplifies outcome 3"
+      ],
+      "reverse_label" : "is_exemplified_by",
+      "definition" : [
+        "Exemplifies is a relation between two concepts where Concept A is the example of Concept B."
+      ],
+      "comments" : [
+        "The name was changed from 'Member of this domain - USAGE' as we found it too different from the standard meaning of domain."
+      ],
+      "link" : "https://globalwordnet.github.io/gwadoc/#exemplifies",
+      "examples" : {
+        "wings" : "plural form",
+        "Band Aid" : "trademark"
+      }
+    },
+    {
+      "label" : "is_exemplified_by",
+      "features" : [
+        "A specialization.",
+        "A special case.",
+        "An example.",
+        "An exemplification.",
+        "A specializing sense relation.",
+        "I am interested in a concept which is a special case of a given concept.",
+        "I am interested in a concept which is a specialization of a given concept.",
+        "I am interested in a concept which is an example a given concept.",
+        "A specializing relation is my choice.",
+        "I am interested in a concept which is more specialized relative to this sense of the word."
+      ],
+      "outcomes" : [
+        "is_exemplified_by outcome 1",
+        "is_exemplified_by outcome 2",
+        "is_exemplified_by outcome 3"
+      ],
+      "reverse_label" : "exemplifies",
+      "definition" : [
+        "Is Exemplified By is a relation between two concepts where Concept B is a type of Concept A, such as idiom, honorific or classifier."
+      ],
+      "comments" : [
+        "May be changed to 'Exemplified_By'."
+      ],
+      "link" : "https://globalwordnet.github.io/gwadoc/#is_exemplified_by",
+      "examples" : {
+        "trademark" : "Band Aid",
+        "plural form" : "wings"
+      }
+    },
+    {
+      "label" : "has_domain_region",
+      "features" : [
+        "A domain region.",
+        "A geographical region.",
+        "A geographical domain.",
+        "A cultural region.",
+        "A cultural domain."
+      ],
+      "outcomes" : [
+        "has_domain_region outcome 1",
+        "has_domain_region outcome 2",
+        "has_domain_region outcome 3"
+      ],
+      "reverse_label" : "domain_region",
+      "definition" : [
+        "A concept which is the term in the geographical / cultural domain of a given concept.",
+        "Has Domain Region is a relation between two concepts where Concept A is a term of the geographical / cultural domain of concept B."
+      ],
+      "comments" : [
+        "We have discussed changing the name for these (as they include both geographical and cultural regions). But we have not yet come up with a good name."
+      ],
+      "link" : "https://globalwordnet.github.io/gwadoc/#has_domain_region",
+      "examples" : {
+        "billion" : "United States",
+        "sushi" : "Japan",
+        "War of the Roses" : "England",
+        "Philippine Sea" : "Pacific"
+      }
+    },
+    {
+      "label" : "domain_region",
+      "features" : [
+        "A geographical feature.",
+        "A geographical concept.",
+        "A cultural feature.",
+        "A cultural concept."
+      ],
+      "outcomes" : [
+        "domain_region outcome 1",
+        "domain_region outcome 2",
+        "domain_region outcome 3"
+      ],
+      "reverse_label" : "has_domain_region",
+      "definition" : [
+        "A concept which is a geographical / cultural domain pointer of a given concept.",
+        "Indicates the region of this word.",
+        "Domain Region is a relation between two concepts where Concept B is a geographical / cultural domain of concept A."
+      ],
+      "comments" : [
+        "We also agreed to change the name for these (to include both geographical and cultural regions)! But I'm not sure to what..."
+      ],
+      "link" : "https://globalwordnet.github.io/gwadoc/#domain_region",
+      "examples" : {
+        "United States" : "billion",
+        "Japan" : "sushi",
+        "England" : "War of the Roses",
+        "Pacific" : "Philippine Sea"
+      }
+    },
+    {
+      "label" : "attribute",
+      "features" : [
+        "An attribute abstraction.",
+        "A characteristic.",
+        "A belonging attribute.",
+        "A belonging characteristic."
+      ],
+      "outcomes" : [
+        "attribute outcome 1",
+        "attribute outcome 2",
+        "attribute outcome 3"
+      ],
+      "reverse_label" : "attribute",
+      "definition" : [
+        "An abstraction belonging to or characteristic of an entity",
+        "A noun for which adjectives express values. The noun weight is an attribute, for which the adjectives light and heavy express values.",
+        "A relation between nominal and adjectival concepts where the concept A is an attribute of concept B. 'Attributes' is a self-reciprocal link (the two directions of this relation share the same meaning) - Concept-A attributes to Concept-B, and Concept-B attributes to Concept-A.",
+        "It denotes a relation between a noun and its adjectival attributes, and vice-versa - for this reason it should only link adjectives to nouns and vice-versa."
+      ],
+      "comments" : [
+        "In plWN Value_of_the_attribute is a unilateral relation from adjectives to nouns."
+      ],
+      "link" : "https://globalwordnet.github.io/gwadoc/#attribute",
+      "examples" : {
+        "fertile" : "fecundity",
+        "fecundity" : "fertile"
+      }
+    },
+    {
+      "label" : "holo_substance",
+      "features" : [
+        "holo substance",
+        "A sum",
+        "A product",
+        "A composition.",
+        "A product from this concept."
+      ],
+      "outcomes" : [
+        "holo_substance outcome 1",
+        "holo_substance outcome 2",
+        "holo_substance outcome 3"
+      ],
+      "reverse_label" : "mero_substance",
+      "definition" : [
+        "Concept-B is a substance of Concept-A",
+        "A relation between two concepts where concept B is made of concept A. Meronym and Holonym Substance is a paired relation that denotes a higher bound between part and whole. Separating/removing the substance part, will change the whole - Concept-A is made of Concept-B; and Concept-B is a substance of Concept-A."
+      ],
+      "comments" : [
+        "Complex holonyms can also contain substances but in that case the MADE_OF relation is used."
+      ],
+      "link" : "https://globalwordnet.github.io/gwadoc/#holo_substance",
+      "examples" : {
+        "wood" : "stick",
+        "wood" : "beam"
+      }
+    },
+    {
+      "label" : "mero_substance",
+      "features" : [
+        "mero substance",
+        "A substance meronym.",
+        "A material.",
+        "A substance."
+      ],
+      "outcomes" : [
+        "mero_substance outcome 1",
+        "mero_substance outcome 2",
+        "mero_substance outcome 3"
+      ],
+      "reverse_label" : "holo_substance",
+      "definition" : [
+        "Concept A is made of concept B.",
+        "A relation between two concepts where concept A is made of concept B. Meronym and Holonym Substance is a paired relation that denotes a higher bound between part and whole. Separating/removing the substance part, will change the whole - Concept-A is made of Concept-B; and Concept-B is a substance of Concept-A."
+      ],
+      "comments" : [
+        "There are two basic ways of viewing entities in the world, namely either as an individuated thing or as the stuff from which they are made of. This way, for instance a book can be alternatively named 'a book' or 'paper'. The relation between things and the stuff which compose them is called MADE_OF."
+      ],
+      "link" : "https://globalwordnet.github.io/gwadoc/#mero_substance",
+      "examples" : {
+        "stick" : "wood",
+        "paper" : "cellulose",
+        "wood" : "lignin"
+      }
+    },
+    {
+      "label" : "is_entailed_by",
+      "features" : [
+        "necessitating by",
+        "required by"
+      ],
+      "outcomes" : [
+        "is_entailed_by outcome 1",
+        "is_entailed_by outcome 2",
+        "is_entailed_by outcome 3"
+      ],
+      "reverse_label" : "entails",
+      "definition" : [
+        "B is the result/happens because of the occurrence of A"
+      ],
+      "comments" : [
+      ],
+      "link" : "https://globalwordnet.github.io/gwadoc/#is_entailed_by",
+      "examples" : {
+        "sleep" : "snore",
+        "driving" : "starting my car"
+      }
+    },
+    {
+      "label" : "entails",
+      "features" : [
+        "entailed",
+        "This concept entails another concept.",
+        "What entails this concept?",
+        "This is definitely what entails this concept!",
+        "Does this concept really entailed the other concept."
+      ],
+      "outcomes" : [
+        "entails outcome 1",
+        "entails outcome 2",
+        "entails outcome 3"
+      ],
+      "reverse_label" : "is_entailed_by",
+      "definition" : [
+        "A verb X entails Y if X cannot be done unless Y is, or has been, done.",
+        "impose, involve, or imply as a necessary accompaniment or result",
+        "Entailment is a relation that links two verbs, and it is currently unilateral - Verb-A entails Verb-B, without a reciprocal or tracing link. This relation presupposes/requires a semantic restriction in which Verb-B has to take place before or during Verb-A."
+      ],
+      "comments" : [
+        "A verb A entails B if A cannot be done unless B is, or has been, done.",
+        "When one thing entails another thing, it's contained within it. If I'm going to drive somewhere, that entails starting my car. The starting of my car isn't caused by the driving, it's an essential component of it."
+      ],
+      "link" : "https://globalwordnet.github.io/gwadoc/#entails",
+      "examples" : {
+        "snore" : "sleep",
+        "starting my car" : "driving"
+      }
+    },
+    {
+      "label" : "is_caused_by",
+      "features" : [
+        "originating from",
+        "producing",
+        "It originating from this concept.",
+        "It was producing with this concept."
+      ],
+      "outcomes" : [
+        "is_caused_by outcome 1",
+        "is_caused_by outcome 2",
+        "is_caused_by outcome 3"
+      ],
+      "reverse_label" : "causes",
+      "definition" : [
+        "A comes about because of B",
+        "A relation between two concepts where concept A comes into existence as a result of concept B."
+      ],
+      "comments" : [
+        "The 'is caused by' relation was missing from PWN before."
+      ],
+      "link" : "https://globalwordnet.github.io/gwadoc/#is_caused_by",
+      "examples" : {
+        "die" : "kill"
+      }
+    },
+    {
+      "label" : "causes",
+      "features" : [
+        "implied",
+        "This concept implied from it.",
+        "What caused it?",
+        "This is definitely what caused it!",
+        "It really implied the concept!"
+      ],
+      "outcomes" : [
+        "causes outcome 1",
+        "causes outcome 2",
+        "causes outcome 3"
+      ],
+      "reverse_label" : "is_caused_by",
+      "definition" : [
+        "Concept A is an entity that produces an effect or is responsible for events or results of Concept B.",
+        "A relation between two concepts where concept B comes into existence as a result of concept A. Entailment is a relation that links two verbs, and it is currently unilateral - Verb-A causes Verb-B, without a reciprocal or tracing link. Causation presupposes/requires that some Verb-B will, inevitably, take place during or after Verb-A (e.g. if Verb-A occurs, then Verb-B will also occur).",
+        "While not exclusive to these types of verbs, many verbs that have both a transitive and an intransitive form will frequently be submitted to this relation."
+      ],
+      "comments" : [
+        "EUWN's definition of CAUSES is broader than that of PWN. It seems possible to just absorb PWN's links."
+      ],
+      "link" : "https://globalwordnet.github.io/gwadoc/#causes",
+      "examples" : {
+        "kill" : "die"
+      }
+    }
+  ]
+}

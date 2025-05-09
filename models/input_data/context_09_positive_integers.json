@@ -1,0 +1,1105 @@
+{
+  "question" : "Which part of speech are you interested in?",
+  "intents" : [
+    {
+      "label" : "1",
+      "features" : [
+        "1",
+        "one",
+        "first"
+      ],
+      "outcomes" : [
+        "one"
+      ]
+    },
+    {
+      "label" : "2",
+      "features" : [
+        "2",
+        "two",
+        "second"
+      ],
+      "outcomes" : [
+        "two"
+      ]
+    },
+    {
+      "label" : "3",
+      "features" : [
+        "3",
+        "three",
+        "third"
+      ],
+      "outcomes" : [
+        "three"
+      ]
+    },
+    {
+      "label" : "4",
+      "features" : [
+        "4",
+        "four",
+        "fourth"
+      ],
+      "outcomes" : [
+        "four"
+      ]
+    },
+    {
+      "label" : "5",
+      "features" : [
+        "5",
+        "five",
+        "fifth"
+      ],
+      "outcomes" : [
+        "five"
+      ]
+    },
+    {
+      "label" : "6",
+      "features" : [
+        "6",
+        "six",
+        "sixth"
+      ],
+      "outcomes" : [
+        "six"
+      ]
+    },
+    {
+      "label" : "7",
+      "features" : [
+        "7",
+        "seven",
+        "seventh"
+      ],
+      "outcomes" : [
+        "seven"
+      ]
+    },
+    {
+      "label" : "8",
+      "features" : [
+        "8",
+        "eight",
+        "eighth"
+      ],
+      "outcomes" : [
+        "eight"
+      ]
+    },
+    {
+      "label" : "9",
+      "features" : [
+        "9",
+        "nine",
+        "ninth"
+      ],
+      "outcomes" : [
+        "nine"
+      ]
+    },
+    {
+      "label" : "10",
+      "features" : [
+        "10",
+        "ten",
+        "tenth"
+      ],
+      "outcomes" : [
+        "ten"
+      ]
+    },
+    {
+      "label" : "11",
+      "features" : [
+        "11",
+        "eleven",
+        "eleventh"
+      ],
+      "outcomes" : [
+        "eleven"
+      ]
+    },
+    {
+      "label" : "12",
+      "features" : [
+        "12",
+        "twelve",
+        "twelfth"
+      ],
+      "outcomes" : [
+        "twelve"
+      ]
+    },
+    {
+      "label" : "13",
+      "features" : [
+        "13",
+        "thirteen",
+        "thirteenth"
+      ],
+      "outcomes" : [
+        "thirteen"
+      ]
+    },
+    {
+      "label" : "14",
+      "features" : [
+        "14",
+        "fourteen",
+        "fourteenth"
+      ],
+      "outcomes" : [
+        "fourteen"
+      ]
+    },
+    {
+      "label" : "15",
+      "features" : [
+        "15",
+        "fifteen",
+        "fifteenth"
+      ],
+      "outcomes" : [
+        "fifteen"
+      ]
+    },
+    {
+      "label" : "16",
+      "features" : [
+        "16",
+        "sixteen",
+        "sixteenth"
+      ],
+      "outcomes" : [
+        "sixteen"
+      ]
+    },
+    {
+      "label" : "17",
+      "features" : [
+        "17",
+        "seventeen",
+        "seventeenth"
+      ],
+      "outcomes" : [
+        "seventeen"
+      ]
+    },
+    {
+      "label" : "18",
+      "features" : [
+        "18",
+        "eighteen",
+        "eighteenth"
+      ],
+      "outcomes" : [
+        "eighteen"
+      ]
+    },
+    {
+      "label" : "19",
+      "features" : [
+        "19",
+        "nineteen",
+        "nineteenth"
+      ],
+      "outcomes" : [
+        "nineteen"
+      ]
+    },
+    {
+      "label" : "20",
+      "features" : [
+        "20",
+        "twenty",
+        "twentieth"
+      ],
+      "outcomes" : [
+        "twenty"
+      ]
+    },
+    {
+      "label" : "21",
+      "features" : [
+        "21",
+        "twenty one",
+        "twenty first"
+      ],
+      "outcomes" : [
+        "twenty one"
+      ]
+    },
+    {
+      "label" : "22",
+      "features" : [
+        "22",
+        "twenty two",
+        "twenty second"
+      ],
+      "outcomes" : [
+        "twenty two"
+      ]
+    },
+    {
+      "label" : "23",
+      "features" : [
+        "23",
+        "twenty three",
+        "twenty third"
+      ],
+      "outcomes" : [
+        "twenty three"
+      ]
+    },
+    {
+      "label" : "24",
+      "features" : [
+        "24",
+        "twenty four",
+        "twenty fourth"
+      ],
+      "outcomes" : [
+        "twenty four"
+      ]
+    },
+    {
+      "label" : "25",
+      "features" : [
+        "25",
+        "twenty five",
+        "twenty fifth"
+      ],
+      "outcomes" : [
+        "twenty five"
+      ]
+    },
+    {
+      "label" : "26",
+      "features" : [
+        "26",
+        "twenty six",
+        "twenty sixth"
+      ],
+      "outcomes" : [
+        "twenty six"
+      ]
+    },
+    {
+      "label" : "27",
+      "features" : [
+        "27",
+        "twenty seven",
+        "twenty seventh"
+      ],
+      "outcomes" : [
+        "twenty seven"
+      ]
+    },
+    {
+      "label" : "28",
+      "features" : [
+        "28",
+        "twenty eight",
+        "twenty eighth"
+      ],
+      "outcomes" : [
+        "twenty eight"
+      ]
+    },
+    {
+      "label" : "29",
+      "features" : [
+        "29",
+        "twenty nine",
+        "twenty ninth"
+      ],
+      "outcomes" : [
+        "twenty nine"
+      ]
+    },
+    {
+      "label" : "thirty",
+      "features" : [
+        "30",
+        "thirty",
+        "thirtieth"
+      ],
+      "outcomes" : [
+        "thirty"
+      ]
+    },
+    {
+      "label" : "31",
+      "features" : [
+        "31",
+        "thirty one",
+        "thirty first"
+      ],
+      "outcomes" : [
+        "thirty one"
+      ]
+    },
+    {
+      "label" : "32",
+      "features" : [
+        "32",
+        "thirty two",
+        "thirty second"
+      ],
+      "outcomes" : [
+        "thirty two"
+      ]
+    },
+    {
+      "label" : "33",
+      "features" : [
+        "33",
+        "thirty three",
+        "thirty third"
+      ],
+      "outcomes" : [
+        "thirty three"
+      ]
+    },
+    {
+      "label" : "34",
+      "features" : [
+        "34",
+        "thirty four",
+        "thirty fourth"
+      ],
+      "outcomes" : [
+        "thirty four"
+      ]
+    },
+    {
+      "label" : "35",
+      "features" : [
+        "35",
+        "thirty five",
+        "thirty fifth"
+      ],
+      "outcomes" : [
+        "thirty five"
+      ]
+    },
+    {
+      "label" : "36",
+      "features" : [
+        "36",
+        "thirty six",
+        "thirty sixth"
+      ],
+      "outcomes" : [
+        "thirty six"
+      ]
+    },
+    {
+      "label" : "37",
+      "features" : [
+        "37",
+        "thirty seven",
+        "thirty seventh"
+      ],
+      "outcomes" : [
+        "thirty seven"
+      ]
+    },
+    {
+      "label" : "38",
+      "features" : [
+        "38",
+        "thirty eight",
+        "thirty eighth"
+      ],
+      "outcomes" : [
+        "eight"
+      ]
+    },
+    {
+      "label" : "39",
+      "features" : [
+        "39",
+        "thirty nine",
+        "thirty ninth"
+      ],
+      "outcomes" : [
+        "thirty nine"
+      ]
+    },
+    {
+      "label" : "40",
+      "features" : [
+        "40",
+        "forty",
+        "fortieth"
+      ],
+      "outcomes" : [
+        "forty"
+      ]
+    },
+    {
+      "label" : "41",
+      "features" : [
+        "41",
+        "forty one",
+        "forty first"
+      ],
+      "outcomes" : [
+        "forty one"
+      ]
+    },
+    {
+      "label" : "42",
+      "features" : [
+        "42",
+        "forty two",
+        "forty second"
+      ],
+      "outcomes" : [
+        "forty two"
+      ]
+    },
+    {
+      "label" : "43",
+      "features" : [
+        "43",
+        "forty three",
+        "forty third"
+      ],
+      "outcomes" : [
+        "forty three"
+      ]
+    },
+    {
+      "label" : "44",
+      "features" : [
+        "44",
+        "forty four",
+        "forty fourth"
+      ],
+      "outcomes" : [
+        "forty four"
+      ]
+    },
+    {
+      "label" : "45",
+      "features" : [
+        "45",
+        "forty five",
+        "forty fifth"
+      ],
+      "outcomes" : [
+        "forty five"
+      ]
+    },
+    {
+      "label" : "46",
+      "features" : [
+        "46",
+        "forty six",
+        "forty sixth"
+      ],
+      "outcomes" : [
+        "forty six"
+      ]
+    },
+    {
+      "label" : "47",
+      "features" : [
+        "47",
+        "forty seven",
+        "forty seventh"
+      ],
+      "outcomes" : [
+        "forty seven"
+      ]
+    },
+    {
+      "label" : "48",
+      "features" : [
+        "48",
+        "forty eight",
+        "forty eighth"
+      ],
+      "outcomes" : [
+        "forty eight"
+      ]
+    },
+    {
+      "label" : "49",
+      "features" : [
+        "49",
+        "forty nine",
+        "forty nineth"
+      ],
+      "outcomes" : [
+        "forty nine"
+      ]
+    },
+    {
+      "label" : "50",
+      "features" : [
+        "50",
+        "fifty",
+        "fiftieth"
+      ],
+      "outcomes" : [
+        "fifty"
+      ]
+    },
+    {
+      "label" : "51",
+      "features" : [
+        "51",
+        "fifty one",
+        "fifty first"
+      ],
+      "outcomes" : [
+        "fifty one"
+      ]
+    },
+    {
+      "label" : "52",
+      "features" : [
+        "52",
+        "fifty two",
+        "fifty second"
+      ],
+      "outcomes" : [
+        "fifty two"
+      ]
+    },
+    {
+      "label" : "53",
+      "features" : [
+        "53",
+        "fifty three",
+        "fifty third"
+      ],
+      "outcomes" : [
+        "fifty three"
+      ]
+    },
+    {
+      "label" : "54",
+      "features" : [
+        "54",
+        "fifty four",
+        "fifty fourth"
+      ],
+      "outcomes" : [
+        "fifty four"
+      ]
+    },
+    {
+      "label" : "55",
+      "features" : [
+        "55",
+        "fifty five",
+        "fifty fifth"
+      ],
+      "outcomes" : [
+        "fifty five"
+      ]
+    },
+    {
+      "label" : "56",
+      "features" : [
+        "56",
+        "fifty six",
+        "fifty sixth"
+      ],
+      "outcomes" : [
+        "fifty six"
+      ]
+    },
+    {
+      "label" : "57",
+      "features" : [
+        "57",
+        "fifty seven",
+        "fifty seventh"
+      ],
+      "outcomes" : [
+        "fifty seven"
+      ]
+    },
+    {
+      "label" : "58",
+      "features" : [
+        "58",
+        "fifty eight",
+        "fifty eighth"
+      ],
+      "outcomes" : [
+        "fifty eight"
+      ]
+    },
+    {
+      "label" : "59",
+      "features" : [
+        "59",
+        "fifty nine",
+        "fifty ninth"
+      ],
+      "outcomes" : [
+        "fifty nine"
+      ]
+    },
+    {
+      "label" : "60",
+      "features" : [
+        "60",
+        "sixty",
+        "sixtieth"
+      ],
+      "outcomes" : [
+        "sixty"
+      ]
+    },
+    {
+      "label" : "61",
+      "features" : [
+        "61",
+        "sixty one",
+        "sixty first"
+      ],
+      "outcomes" : [
+        "sixty one"
+      ]
+    },
+    {
+      "label" : "62",
+      "features" : [
+        "62",
+        "sixty two",
+        "sixty second"
+      ],
+      "outcomes" : [
+        "sixty two"
+      ]
+    },
+    {
+      "label" : "63",
+      "features" : [
+        "63",
+        "sixty three",
+        "sixty third"
+      ],
+      "outcomes" : [
+        "sixty three"
+      ]
+    },
+    {
+      "label" : "64",
+      "features" : [
+        "64",
+        "sixty four",
+        "sixty fourth"
+      ],
+      "outcomes" : [
+        "sixty four"
+      ]
+    },
+    {
+      "label" : "65",
+      "features" : [
+        "65",
+        "sixty five",
+        "sixty fifth"
+      ],
+      "outcomes" : [
+        "sixty five"
+      ]
+    },
+    {
+      "label" : "66",
+      "features" : [
+        "66",
+        "sixty six",
+        "sixty sixth"
+      ],
+      "outcomes" : [
+        "sixty six"
+      ]
+    },
+    {
+      "label" : "67",
+      "features" : [
+        "67",
+        "sixty seven",
+        "sixty seventh"
+      ],
+      "outcomes" : [
+        "sixty seven"
+      ]
+    },
+    {
+      "label" : "68",
+      "features" : [
+        "68",
+        "sixty eight",
+        "sixty eighth"
+      ],
+      "outcomes" : [
+        "sixty eight"
+      ]
+    },
+    {
+      "label" : "69",
+      "features" : [
+        "69",
+        "sixty nine",
+        "sixty ninth"
+      ],
+      "outcomes" : [
+        "sixty nine"
+      ]
+    },
+    {
+      "label" : "70",
+      "features" : [
+        "70",
+        "seventy",
+        "seventieth"
+      ],
+      "outcomes" : [
+        "seventy"
+      ]
+    },
+    {
+      "label" : "71",
+      "features" : [
+        "71",
+        "seventy one",
+        "seventy first"
+      ],
+      "outcomes" : [
+        "seventy one"
+      ]
+    },
+    {
+      "label" : "72",
+      "features" : [
+        "72",
+        "seventy two",
+        "seventy second"
+      ],
+      "outcomes" : [
+        "two"
+      ]
+    },
+    {
+      "label" : "73",
+      "features" : [
+        "73",
+        "seventy three",
+        "seventy third"
+      ],
+      "outcomes" : [
+        "seventy three"
+      ]
+    },
+    {
+      "label" : "74",
+      "features" : [
+        "74",
+        "seventy four",
+        "seventy fourth"
+      ],
+      "outcomes" : [
+        "seventy four"
+      ]
+    },
+    {
+      "label" : "75",
+      "features" : [
+        "75",
+        "seventy five",
+        "seventy fifth"
+      ],
+      "outcomes" : [
+        "seventy five"
+      ]
+    },
+    {
+      "label" : "76",
+      "features" : [
+        "76",
+        "seventy six",
+        "seventy sixth"
+      ],
+      "outcomes" : [
+        "seventy six"
+      ]
+    },
+    {
+      "label" : "77",
+      "features" : [
+        "77",
+        "seventy seven",
+        "seventy seventh"
+      ],
+      "outcomes" : [
+        "seventy seven"
+      ]
+    },
+    {
+      "label" : "78",
+      "features" : [
+        "78",
+        "seventy eight",
+        "seventy eighth"
+      ],
+      "outcomes" : [
+        "seventy eight"
+      ]
+    },
+    {
+      "label" : "79",
+      "features" : [
+        "79",
+        "seventy nine",
+        "seventy nineth"
+      ],
+      "outcomes" : [
+        "seventy nine"
+      ]
+    },
+    {
+      "label" : "80",
+      "features" : [
+        "80",
+        "eighty",
+        "eightieth"
+      ],
+      "outcomes" : [
+        "eighty"
+      ]
+    },
+    {
+      "label" : "81",
+      "features" : [
+        "81",
+        "eighty one",
+        "eighty first"
+      ],
+      "outcomes" : [
+        "eighty one"
+      ]
+    },
+    {
+      "label" : "82",
+      "features" : [
+        "82",
+        "eighty two",
+        "eighty second"
+      ],
+      "outcomes" : [
+        "eighty two"
+      ]
+    },
+    {
+      "label" : "83",
+      "features" : [
+        "83",
+        "eighty three",
+        "eighty third"
+      ],
+      "outcomes" : [
+        "eighty three"
+      ]
+    },
+    {
+      "label" : "84",
+      "features" : [
+        "84",
+        "eighty four",
+        "eighty fouth"
+      ],
+      "outcomes" : [
+        "eighty four"
+      ]
+    },
+    {
+      "label" : "85",
+      "features" : [
+        "85",
+        "eighty five",
+        "eighty fifth"
+      ],
+      "outcomes" : [
+        "eighty five"
+      ]
+    },
+    {
+      "label" : "86",
+      "features" : [
+        "86",
+        "eighty six",
+        "eighty sixth"
+      ],
+      "outcomes" : [
+        "eighty six"
+      ]
+    },
+    {
+      "label" : "87",
+      "features" : [
+        "87",
+        "eighty seven",
+        "eighty seventh"
+      ],
+      "outcomes" : [
+        "eighty seven"
+      ]
+    },
+    {
+      "label" : "88",
+      "features" : [
+        "88",
+        "eighty eight",
+        "eighty eighth"
+      ],
+      "outcomes" : [
+        "eighty eight"
+      ]
+    },
+    {
+      "label" : "89",
+      "features" : [
+        "89",
+        "eighty nine",
+        "eighty ninth"
+      ],
+      "outcomes" : [
+        "eighty nine"
+      ]
+    },
+    {
+      "label" : "90",
+      "features" : [
+        "90",
+        "ninety",
+        "ninetieth"
+      ],
+      "outcomes" : [
+        "ninety"
+      ]
+    },
+    {
+      "label" : "91",
+      "features" : [
+        "91",
+        "ninety one",
+        "ninety first"
+      ],
+      "outcomes" : [
+        "ninety one"
+      ]
+    },
+    {
+      "label" : "92",
+      "features" : [
+        "92",
+        "ninety two",
+        "ninety second"
+      ],
+      "outcomes" : [
+        "ninety two"
+      ]
+    },
+    {
+      "label" : "93",
+      "features" : [
+        "93",
+        "ninety three",
+        "ninety third"
+      ],
+      "outcomes" : [
+        "ninety three"
+      ]
+    },
+    {
+      "label" : "94",
+      "features" : [
+        "94",
+        "ninety four",
+        "ninety fourth"
+      ],
+      "outcomes" : [
+        "ninety four"
+      ]
+    },
+    {
+      "label" : "95",
+      "features" : [
+        "95",
+        "ninety five",
+        "ninety fifth"
+      ],
+      "outcomes" : [
+        "ninety five"
+      ]
+    },
+    {
+      "label" : "96",
+      "features" : [
+        "96",
+        "ninety six",
+        "ninety sixth"
+      ],
+      "outcomes" : [
+        "ninety six"
+      ]
+    },
+    {
+      "label" : "97",
+      "features" : [
+        "97",
+        "ninety seven",
+        "ninety seventh"
+      ],
+      "outcomes" : [
+        "ninety seven"
+      ]
+    },
+    {
+      "label" : "98",
+      "features" : [
+        "98",
+        "ninety eight",
+        "ninety eighth"
+      ],
+      "outcomes" : [
+        "ninety eight"
+      ]
+    },
+    {
+      "label" : "99",
+      "features" : [
+        "99",
+        "ninety nine",
+        "ninety ninth"
+      ],
+      "outcomes" : [
+        "ninety nine"
+      ]
+    },
+    {
+      "label" : "100",
+      "features" : [
+        "100",
+        "one hundred",
+        "one hundredth"
+      ],
+      "outcomes" : [
+        "one hundred"
+      ]
+    }
+  ]
+}

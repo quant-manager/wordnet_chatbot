@@ -1,0 +1,550 @@
+{
+  "intents" : [
+    {
+      "label" : "vtai",
+      "template" : "(Somebody ----s something)",
+      "features" : [
+        "vtai feature 1",
+        "vtai feature 2",
+        "vtai feature 3"
+      ],
+      "outcomes" : [
+        "vtai outcome 1",
+        "vtai outcome 2",
+        "vtai outcome 3"
+      ]
+    },
+    {
+      "label" : "via",
+      "template" : "(Somebody ----s)",
+      "features" : [
+        "via feature 1",
+        "via feature 2",
+        "via feature 3"
+      ],
+      "outcomes" : [
+        "via outcome 1",
+        "via outcome 2",
+        "via outcome 3"
+      ]
+    },
+    {
+      "label" : "vtaa",
+      "template" : "(Somebody ----s somebody)",
+      "features" : [
+        "vtaa feature 1",
+        "vtaa feature 2",
+        "vtaa feature 3"
+      ],
+      "outcomes" : [
+        "vtaa outcome 1",
+        "vtaa outcome 2",
+        "vtaa outcome 3"
+      ]
+    },
+    {
+      "label" : "vtii",
+      "template" : "(Something ----s something)",
+      "features" : [
+        "vtii feature 1",
+        "vtii feature 2",
+        "vtii feature 3"
+      ],
+      "outcomes" : [
+        "vtii outcome 1",
+        "vtii outcome 2",
+        "vtii outcome 3"
+      ]
+    },
+    {
+      "label" : "vii",
+      "template" : "(Something ----s)",
+      "features" : [
+        "vii feature 1",
+        "vii feature 2",
+        "vii feature 3"
+      ],
+      "outcomes" : [
+        "vii outcome 1",
+        "vii outcome 2",
+        "vii outcome 3"
+      ]
+    },
+    {
+      "label" : "via-pp",
+      "template" : "(Somebody ----s PP)",
+      "features" : [
+        "via-pp feature 1",
+        "via-pp feature 2",
+        "via-pp feature 3"
+      ],
+      "outcomes" : [
+        "via-pp outcome 1",
+        "via-pp outcome 2",
+        "via-pp outcome 3"
+      ]
+    },
+    {
+      "label" : "vtia",
+      "template" : "(Something ----s somebody)",
+      "features" : [
+        "vtia feature 1",
+        "vtia feature 2",
+        "vtia feature 3"
+      ],
+      "outcomes" : [
+        "vtia outcome 1",
+        "vtia outcome 2",
+        "vtia outcome 3"
+      ]
+    },
+    {
+      "label" : "vii-pp",
+      "template" : "(Something is ----ing PP)",
+      "features" : [
+        "vii-pp feature 1",
+        "vii-pp feature 2",
+        "vii-pp feature 3"
+      ],
+      "outcomes" : [
+        "vii-pp outcome 1",
+        "vii-pp outcome 2",
+        "vii-pp outcome 3"
+      ]
+    },
+    {
+      "label" : "vtai-pp",
+      "template" : "(Somebody ----s something PP)",
+      "features" : [
+        "vtai-pp feature 1",
+        "vtai-pp feature 2",
+        "vtai-pp feature 3"
+      ],
+      "outcomes" : [
+        "vtai-pp outcome 1",
+        "vtai-pp outcome 2",
+        "vtai-pp outcome 3"
+      ]
+    },
+    {
+      "label" : "via-that",
+      "template" : "(Somebody ----s that CLAUSE)",
+      "features" : [
+        "via-that feature 1",
+        "via-that feature 2",
+        "via-that feature 3"
+      ],
+      "outcomes" : [
+        "via-that outcome 1",
+        "via-that outcome 2",
+        "via-that outcome 3"
+      ]
+    },
+    {
+      "label" : "vtaa-pp",
+      "template" : "(Somebody ----s somebody PP)",
+      "features" : [
+        "vtaa-pp feature 1",
+        "vtaa-pp feature 2",
+        "vtaa-pp feature 3"
+      ],
+      "outcomes" : [
+        "vtaa-pp outcome 1",
+        "vtaa-pp outcome 2",
+        "vtaa-pp outcome 3"
+      ]
+    },
+    {
+      "label" : "vtai-to",
+      "template" : "(Somebody ----s something to somebody)",
+      "features" : [
+        "vtai-to feature 1",
+        "vtai-to feature 2",
+        "vtai-to feature 3"
+      ],
+      "outcomes" : [
+        "vtai-to outcome 1",
+        "vtai-to outcome 2",
+        "vtai-to outcome 3"
+      ]
+    },
+    {
+      "label" : "ditransitive",
+      "template" : "(Somebody ----s somebody something)",
+      "features" : [
+        "ditransitive feature 1",
+        "ditransitive feature 2",
+        "ditransitive feature 3"
+      ],
+      "outcomes" : [
+        "ditransitive outcome 1",
+        "ditransitive outcome 2",
+        "ditransitive outcome 3"
+      ]
+    },
+    {
+      "label" : "vtaa-to-inf",
+      "template" : "(Somebody ----s somebody to INFINITIVE)",
+      "features" : [
+        "vtaa-to-inf feature 1",
+        "vtaa-to-inf feature 2",
+        "vtaa-to-inf feature 3"
+      ],
+      "outcomes" : [
+        "vtaa-to-inf outcome 1",
+        "vtaa-to-inf outcome 2",
+        "vtaa-to-inf outcome 3"
+      ]
+    },
+    {
+      "label" : "via-to-inf",
+      "template" : "(Somebody ----s to INFINITIVE)",
+      "features" : [
+        "via-to-inf feature 1",
+        "via-to-inf feature 2",
+        "via-to-inf feature 3"
+      ],
+      "outcomes" : [
+        "via-to-inf outcome 1",
+        "via-to-inf outcome 2",
+        "via-to-inf outcome 3"
+      ]
+    },
+    {
+      "label" : "vtai-from",
+      "template" : "(Somebody ----s something from somebody)",
+      "features" : [
+        "vtai-from feature 1",
+        "vtai-from feature 2",
+        "vtai-from feature 3"
+      ],
+      "outcomes" : [
+        "vtai-from outcome 1",
+        "vtai-from outcome 2",
+        "vtai-from outcome 3"
+      ]
+    },
+    {
+      "label" : "vtaa-with",
+      "template" : "(Somebody ----s somebody with something)",
+      "features" : [
+        "vtaa-with feature 1",
+        "vtaa-with feature 2",
+        "vtaa-with feature 3"
+      ],
+      "outcomes" : [
+        "vtaa-with outcome 1",
+        "vtaa-with outcome 2",
+        "vtaa-with outcome 3"
+      ]
+    },
+    {
+      "label" : "via-ger",
+      "template" : "(Somebody ----s VERB-ing)",
+      "features" : [
+        "via-ger feature 1",
+        "via-ger feature 2",
+        "via-ger feature 3"
+      ],
+      "outcomes" : [
+        "via-ger outcome 1",
+        "via-ger outcome 2",
+        "via-ger outcome 3"
+      ]
+    },
+    {
+      "label" : "vtai-with",
+      "template" : "(Somebody ----s something with something)",
+      "features" : [
+        "vtai-with feature 1",
+        "vtai-with feature 2",
+        "vtai-with feature 3"
+      ],
+      "outcomes" : [
+        "vtai-with outcome 1",
+        "vtai-with outcome 2",
+        "vtai-with outcome 3"
+      ]
+    },
+    {
+      "label" : "vii-adj",
+      "template" : "(Something ----s Adjective/Noun)",
+      "features" : [
+        "vii-adj feature 1",
+        "vii-adj feature 2",
+        "vii-adj feature 3"
+      ],
+      "outcomes" : [
+        "vii-adj outcome 1",
+        "vii-adj outcome 2",
+        "vii-adj outcome 3"
+      ]
+    },
+    {
+      "label" : "via-adj",
+      "template" : "(Somebody ----s Adjective)",
+      "features" : [
+        "via-adj feature 1",
+        "via-adj feature 2",
+        "via-adj feature 3"
+      ],
+      "outcomes" : [
+        "via-adj outcome 1",
+        "via-adj outcome 2",
+        "via-adj outcome 3"
+      ]
+    },
+    {
+      "label" : "via-to",
+      "template" : "(Somebody ----s to somebody)",
+      "features" : [
+        "via-to feature 1",
+        "via-to feature 2",
+        "via-to feature 3"
+      ],
+      "outcomes" : [
+        "via-to outcome 1",
+        "via-to outcome 2",
+        "via-to outcome 3"
+      ]
+    },
+    {
+      "label" : "vtaa-of",
+      "template" : "(Somebody ----s somebody of something)",
+      "features" : [
+        "vtaa-of feature 1",
+        "vtaa-of feature 2",
+        "vtaa-of feature 3"
+      ],
+      "outcomes" : [
+        "vtaa-of outcome 1",
+        "vtaa-of outcome 2",
+        "vtaa-of outcome 3"
+      ]
+    },
+    {
+      "label" : "via-on-inanim",
+      "template" : "(Somebody ----s on something)",
+      "features" : [
+        "via-on-inanim feature 1",
+        "via-on-inanim feature 2",
+        "via-on-inanim feature 3"
+      ],
+      "outcomes" : [
+        "via-on-inanim outcome 1",
+        "via-on-inanim outcome 2",
+        "via-on-inanim outcome 3"
+      ]
+    },
+    {
+      "label" : "vtii-adj",
+      "template" : "(Something ----s something Adjective/Noun)",
+      "features" : [
+        "vtii-adj feature 1",
+        "vtii-adj feature 2",
+        "vtii-adj feature 3"
+      ],
+      "outcomes" : [
+        "vtii-adj outcome 1",
+        "vtii-adj outcome 2",
+        "vtii-adj outcome 3"
+      ]
+    },
+    {
+      "label" : "via-whether-inf",
+      "template" : "(Somebody ----s whether INFINITIVE)",
+      "features" : [
+        "via-whether-inf feature 1",
+        "via-whether-inf feature 2",
+        "via-whether-inf feature 3"
+      ],
+      "outcomes" : [
+        "via-whether-inf outcome 1",
+        "via-whether-inf outcome 2",
+        "via-whether-inf outcome 3"
+      ]
+    },
+    {
+      "label" : "nonreferential",
+      "template" : "(It is ----ing)",
+      "features" : [
+        "nonreferential feature 1",
+        "nonreferential feature 2",
+        "nonreferential feature 3"
+      ],
+      "outcomes" : [
+        "nonreferential outcome 1",
+        "nonreferential outcome 2",
+        "nonreferential outcome 3"
+      ]
+    },
+    {
+      "label" : "nonreferential-sent",
+      "template" : "(It ----s that CLAUSE)",
+      "features" : [
+        "nonreferential-sent feature 1",
+        "nonreferential-sent feature 2",
+        "nonreferential-sent feature 3"
+      ],
+      "outcomes" : [
+        "nonreferential-sent outcome 1",
+        "nonreferential-sent outcome 2",
+        "nonreferential-sent outcome 3"
+      ]
+    },
+    {
+      "label" : "vtaa-into-ger",
+      "template" : "(Somebody ----s somebody into V-ing something)",
+      "features" : [
+        "vtaa-into-ger feature 1",
+        "vtaa-into-ger feature 2",
+        "vtaa-into-ger feature 3"
+      ],
+      "outcomes" : [
+        "vtaa-into-ger outcome 1",
+        "vtaa-into-ger outcome 2",
+        "vtaa-into-ger outcome 3"
+      ]
+    },
+    {
+      "label" : "vibody",
+      "template" : "(Somebody's (body part) ----s)",
+      "features" : [
+        "vibody feature 1",
+        "vibody feature 2",
+        "vibody feature 3"
+      ],
+      "outcomes" : [
+        "vibody outcome 1",
+        "vibody outcome 2",
+        "vibody outcome 3"
+      ]
+    },
+    {
+      "label" : "vtai-on",
+      "template" : "(Somebody ----s something on somebody)",
+      "features" : [
+        "vtai-on feature 1",
+        "vtai-on feature 2",
+        "vtai-on feature 3"
+      ],
+      "outcomes" : [
+        "vtai-on outcome 1",
+        "vtai-on outcome 2",
+        "vtai-on outcome 3"
+      ]
+    },
+    {
+      "label" : "vii-to",
+      "template" : "(Something ----s to somebody)",
+      "features" : [
+        "vii-to feature 1",
+        "vii-to feature 2",
+        "vii-to feature 3"
+      ],
+      "outcomes" : [
+        "vii-to outcome 1",
+        "vii-to outcome 2",
+        "vii-to outcome 3"
+      ]
+    },
+    {
+      "label" : "vtaa-inf",
+      "template" : "(Somebody ----s somebody INFINITIVE)",
+      "features" : [
+        "vtaa-inf feature 1",
+        "vtaa-inf feature 2",
+        "vtaa-inf feature 3"
+      ],
+      "outcomes" : [
+        "vtaa-inf outcome 1",
+        "vtaa-inf outcome 2",
+        "vtaa-inf outcome 3"
+      ]
+    },
+    {
+      "label" : "via-inf",
+      "template" : "(Somebody ----s INFINITIVE)",
+      "features" : [
+        "via-inf feature 1",
+        "via-inf feature 2",
+        "via-inf feature 3"
+      ],
+      "outcomes" : [
+        "via-inf outcome 1",
+        "via-inf outcome 2",
+        "via-inf outcome 3"
+      ]
+    },
+    {
+      "label" : "vii-inf",
+      "template" : "(Something ----s INFINITIVE)",
+      "features" : [
+        "vii-inf feature 1",
+        "vii-inf feature 2",
+        "vii-inf feature 3"
+      ],
+      "outcomes" : [
+        "vii-inf outcome 1",
+        "vii-inf outcome 2",
+        "vii-inf outcome 3"
+      ]
+    },
+    {
+      "label" : "via-for",
+      "template" : "(Somebody ----s for something)",
+      "features" : [
+        "via-for feature 1",
+        "via-for feature 2",
+        "via-for feature 3"
+      ],
+      "outcomes" : [
+        "via-for outcome 1",
+        "via-for outcome 2",
+        "via-for outcome 3"
+      ]
+    },
+    {
+      "label" : "via-on-anim",
+      "template" : "(Somebody ----s on somebody)",
+      "features" : [
+        "via-on-anim feature 1",
+        "via-on-anim feature 2",
+        "via-on-anim feature 3"
+      ],
+      "outcomes" : [
+        "via-on-anim outcome 1",
+        "via-on-anim outcome 2",
+        "via-on-anim outcome 3"
+      ]
+    },
+    {
+      "label" : "via-at",
+      "template" : "(Somebody ----s at something)",
+      "features" : [
+        "via-at feature 1",
+        "via-at feature 2",
+        "via-at feature 3"
+      ],
+      "outcomes" : [
+        "via-at outcome 1",
+        "via-at outcome 2",
+        "via-at outcome 3"
+      ]
+    },
+    {
+      "label" : "via-out-of",
+      "template" : "(Somebody ----s out of somebody)",
+      "features" : [
+        "via-out-of feature 1",
+        "via-out-of feature 2",
+        "via-out-of feature 3"
+      ],
+      "outcomes" : [
+        "via-out-of outcome 1",
+        "via-out-of outcome 2",
+        "via-out-of outcome 3"
+      ]
+    }
+  ]
+}

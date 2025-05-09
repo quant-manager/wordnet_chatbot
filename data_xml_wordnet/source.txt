@@ -1,0 +1,21 @@
+https://github.com/globalwordnet/English-Wordnet?tab=readme-ov-file
+
+Releases
+Open English Wordnet is released through the Open English Wordnet website. The versions released are
+    2024 Edition (Released 1st November 2024). (LMF) (RDF) (WNDB)
+Choose link to "LMF": https://en-word.net/static/english-wordnet-2024.xml.gz
+Extract file wn.xml (size ~100,243 KB)
+
+Additional information:
+
+https://wordnet.princeton.edu/
+https://globalwordnet.github.io/schemas/
+https://globalwordnet.github.io/schemas/dc/
+https://en-word.net/lemma/ECG#ECG-n
+
+Use the following to generate dialogs(!):
+https://globalwordnet.github.io/gwadoc/
+
+https://realpython.com/python-xml-parser/
+https://docs.python.org/3/library/xml.etree.elementtree.html
+

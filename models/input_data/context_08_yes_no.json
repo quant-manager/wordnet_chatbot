@@ -1,0 +1,75 @@
+{
+  "question" : "Is your answer YES or NO?",
+  "intents" : [
+    {
+      "label" : "yes",
+      "features" : [
+        "yes",
+        "yea",
+        "yep",
+        "yup",
+        "yeap",
+        "yah",
+        "yeah",
+        "roger",
+        "aye",
+        "aye aye",
+        "okey-dokey",
+        "ok",
+        "okey-doke",
+        "certainly",
+        "you bet",
+        "you may be sure",
+        "of course",
+        "sure",
+        "surely",
+        "absolutely",
+        "aye",
+        "in the affirmative",
+        "affirmative",
+        "agreed",
+        "alright",
+        "all right",
+        "very well",
+        "by all means",
+        "righto",
+        "achcha",
+        "righty-ho",
+        "okay"
+      ],
+      "outcomes" : [
+        "I am glad that you agreed."
+      ]
+    },
+    {
+      "label" : "no",
+      "features" : [
+        "no",
+        "no indeed",
+        "absolutely not",
+        "most certainly not",
+        "of course not",
+        "under no circumstances",
+        "by no means",
+        "not at all",
+        "negative",
+        "never",
+        "not really",
+        "no thanks",
+        "nae",
+        "nope",
+        "nah",
+        "not on your life",
+        "no way",
+        "no fear",
+        "not on your nelly",
+        "no siree",
+        "naw",
+        "nay"
+      ],
+      "outcomes" : [
+        "I respect your disagreement."
+      ]
+    }
+  ]
+}
